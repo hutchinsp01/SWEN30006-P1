@@ -1,0 +1,770 @@
+#Floors: 12
+#Created mails: 200
+#Maximum weight: 2000
+#Mail receiving length: 120
+#RegularRobots: 3
+#FastRobots: 3
+#BulkRobots: 3
+#TotalRobots: 9
+Is fee charging enabled: true
+#A Random Seed: 30006
+Setting up Wifi Modem
+Modem Turnon on Floor[1]
+T:   0 >   R0(0) changed from RETURNING to WAITING
+T:   0 >   R1(0) changed from RETURNING to WAITING
+T:   0 >   R2(0) changed from RETURNING to WAITING
+T:   0 >   F3(0) changed from RETURNING to WAITING
+T:   0 >   F4(0) changed from RETURNING to WAITING
+T:   0 >   F5(0) changed from RETURNING to WAITING
+T:   0 >   B6(0) changed from RETURNING to WAITING
+T:   0 >   B7(0) changed from RETURNING to WAITING
+T:   0 >   B8(0) changed from RETURNING to WAITING
+T:   3 > new addToPool [Mail Item:: ID:     84 | Arrival:    3 | Destination: 10 | Weight:  454]
+T:   3 >   R0(0) changed from WAITING to DELIVERING
+T:   3 >   R0(0)-> [Mail Item:: ID:     84 | Arrival:    3 | Destination: 10 | Weight:  454]
+T:   4 > new addToPool [Mail Item:: ID:    100 | Arrival:    4 | Destination:  9 | Weight: 1460]
+T:   4 >   R1(0) changed from WAITING to DELIVERING
+T:   4 >   R1(0)-> [Mail Item:: ID:    100 | Arrival:    4 | Destination:  9 | Weight: 1460]
+T:   5 > new addToPool [Mail Item:: ID:     37 | Arrival:    5 | Destination:  1 | Weight:  420]
+T:   5 > new addToPool [Mail Item:: ID:     80 | Arrival:    5 | Destination:  7 | Weight:  625]
+T:   5 > new addToPool [Mail Item:: ID:     89 | Arrival:    5 | Destination: 10 | Weight: 1390]
+T:   5 >   R2(1) changed from WAITING to DELIVERING
+T:   5 >   R2(1)-> [Mail Item:: ID:     89 | Arrival:    5 | Destination: 10 | Weight: 1390]
+T:   5 >   F3(0) changed from WAITING to DELIVERING
+T:   5 >   F3(0)-> [Mail Item:: ID:     37 | Arrival:    5 | Destination:  1 | Weight:  420]
+T:   6 > new addToPool [Mail Item:: ID:     20 | Arrival:    6 | Destination:  3 | Weight: 1649]
+T:   6 > new addToPool [Mail Item:: ID:    110 | Arrival:    6 | Destination:  3 | Weight:  648]
+T:   6 >   F3(0)-> Delivered(   1) [Mail Item:: ID:     37 | Arrival:    5 | Destination:  1 | Weight:  420 | Service Fee: 2.16 | Maintenance: 0.07 | Avg. Operating Time: 1.33 | Total Charge: 2.22]
+T:   6 >   F3(0) changed from DELIVERING to RETURNING
+T:   6 >   F4(0) changed from WAITING to DELIVERING
+T:   6 >   F4(0)-> [Mail Item:: ID:     20 | Arrival:    6 | Destination:  3 | Weight: 1649]
+T:   6 >   F5(0) changed from WAITING to DELIVERING
+T:   6 >   F5(0)-> [Mail Item:: ID:    110 | Arrival:    6 | Destination:  3 | Weight:  648]
+T:   7 > new addToPool [Mail Item:: ID:     16 | Arrival:    7 | Destination:  9 | Weight:  605]
+T:   7 >   F3(0) changed from RETURNING to WAITING
+T:   7 >   B6(1) changed from WAITING to DELIVERING
+T:   7 >   B6(1)-> [Mail Item:: ID:     16 | Arrival:    7 | Destination:  9 | Weight:  605]
+T:   8 > new addToPool [Mail Item:: ID:    128 | Arrival:    8 | Destination:  4 | Weight:  548]
+T:   8 >   F4(0)-> Delivered(   2) [Mail Item:: ID:     20 | Arrival:    6 | Destination:  3 | Weight: 1649 | Service Fee: 0.99 | Maintenance: 0.13 | Avg. Operating Time: 2.67 | Total Charge: 1.12]
+T:   8 >   F4(0) changed from DELIVERING to RETURNING
+T:   8 >   F5(0)-> Delivered(   3) [Mail Item:: ID:    110 | Arrival:    6 | Destination:  3 | Weight:  648 | Service Fee: 0.99 | Maintenance: 0.15 | Avg. Operating Time: 3.00 | Total Charge: 1.14]
+T:   8 >   F5(0) changed from DELIVERING to RETURNING
+T:   8 >   B7(1) changed from WAITING to DELIVERING
+T:   8 >   B7(1)-> [Mail Item:: ID:    128 | Arrival:    8 | Destination:  4 | Weight:  548]
+T:  10 >   F4(0) changed from RETURNING to WAITING
+T:  10 >   F5(0) changed from RETURNING to WAITING
+T:  11 > new addToPool [Mail Item:: ID:     49 | Arrival:   11 | Destination:  8 | Weight:  209]
+T:  11 >   B8(1) changed from WAITING to DELIVERING
+T:  11 >   B8(1)-> [Mail Item:: ID:     49 | Arrival:   11 | Destination:  8 | Weight:  209]
+T:  12 > new addToPool [Mail Item:: ID:     12 | Arrival:   12 | Destination:  6 | Weight: 1278]
+T:  12 > new addToPool [Mail Item:: ID:    111 | Arrival:   12 | Destination:  6 | Weight:  711]
+T:  12 >   F3(0) changed from WAITING to DELIVERING
+T:  12 >   F3(0)-> [Mail Item:: ID:     12 | Arrival:   12 | Destination:  6 | Weight: 1278]
+T:  12 >   F4(0) changed from WAITING to DELIVERING
+T:  12 >   F4(0)-> [Mail Item:: ID:    111 | Arrival:   12 | Destination:  6 | Weight:  711]
+T:  12 >   B7(0)-> Delivered(   4) [Mail Item:: ID:    128 | Arrival:    8 | Destination:  4 | Weight:  548 | Service Fee: 3.90 | Maintenance: 0.04 | Avg. Operating Time: 4.00 | Total Charge: 3.94]
+T:  12 >   B7(0) changed from DELIVERING to RETURNING
+T:  13 > new addToPool [Mail Item:: ID:     38 | Arrival:   13 | Destination: 12 | Weight:  518]
+T:  13 >   R0(0)-> Delivered(   5) [Mail Item:: ID:     84 | Arrival:    3 | Destination: 10 | Weight:  454 | Service Fee: 0.00 | Maintenance: 0.23 | Avg. Operating Time: 9.33 | Total Charge: 0.23]
+T:  13 >   R0(0) changed from DELIVERING to RETURNING
+T:  13 >   R1(0)-> Delivered(   6) [Mail Item:: ID:    100 | Arrival:    4 | Destination:  9 | Weight: 1460 | Service Fee: 0.71 | Maintenance: 0.24 | Avg. Operating Time: 9.67 | Total Charge: 0.96]
+T:  13 >   R1(0) changed from DELIVERING to RETURNING
+T:  13 >   F5(0) changed from WAITING to DELIVERING
+T:  13 >   F5(0)-> [Mail Item:: ID:     38 | Arrival:   13 | Destination: 12 | Weight:  518]
+T:  15 > new addToPool [Mail Item:: ID:     22 | Arrival:   15 | Destination: 12 | Weight: 1444]
+T:  15 > new addToPool [Mail Item:: ID:    145 | Arrival:   15 | Destination:  4 | Weight:  228]
+T:  15 >   R2(1)-> Delivered(   7) [Mail Item:: ID:     89 | Arrival:    5 | Destination: 10 | Weight: 1390 | Service Fee: 1.78 | Maintenance: 0.30 | Avg. Operating Time: 12.00 | Total Charge: 2.08]
+T:  15 >   R2(0)-> [Mail Item:: ID:     80 | Arrival:    5 | Destination:  7 | Weight:  625]
+T:  15 >   F3(0)-> Delivered(   8) [Mail Item:: ID:     12 | Arrival:   12 | Destination:  6 | Weight: 1278 | Service Fee: 0.00 | Maintenance: 0.32 | Avg. Operating Time: 6.33 | Total Charge: 0.32]
+T:  15 >   F3(0) changed from DELIVERING to RETURNING
+T:  15 >   F4(0)-> Delivered(   9) [Mail Item:: ID:    111 | Arrival:   12 | Destination:  6 | Weight:  711 | Service Fee: 1.61 | Maintenance: 0.33 | Avg. Operating Time: 6.67 | Total Charge: 1.94]
+T:  15 >   F4(0) changed from DELIVERING to RETURNING
+T:  16 > new addToPool [Mail Item:: ID:     52 | Arrival:   16 | Destination:  7 | Weight: 2000]
+T:  16 >   B6(0)-> Delivered(  10) [Mail Item:: ID:     16 | Arrival:    7 | Destination:  9 | Weight:  605 | Service Fee: 0.71 | Maintenance: 0.08 | Avg. Operating Time: 7.67 | Total Charge: 0.79]
+T:  16 >   B6(0) changed from DELIVERING to RETURNING
+T:  16 >   B7(0) changed from RETURNING to WAITING
+T:  17 > new addToPool [Mail Item:: ID:     45 | Arrival:   17 | Destination:  4 | Weight: 2000]
+T:  17 > new addToPool [Mail Item:: ID:     51 | Arrival:   17 | Destination: 10 | Weight:  746]
+T:  17 > new addToPool [Mail Item:: ID:     68 | Arrival:   17 | Destination:  2 | Weight: 2000]
+T:  17 > new addToPool [Mail Item:: ID:     91 | Arrival:   17 | Destination: 10 | Weight: 1656]
+T:  17 >   B7(5) changed from WAITING to DELIVERING
+T:  17 >   B7(5)-> [Mail Item:: ID:    145 | Arrival:   15 | Destination:  4 | Weight:  228]
+T:  18 > new addToPool [Mail Item:: ID:     28 | Arrival:   18 | Destination:  8 | Weight: 1434]
+T:  18 > new addToPool [Mail Item:: ID:     67 | Arrival:   18 | Destination:  7 | Weight:  439]
+T:  18 >   F3(0) changed from RETURNING to WAITING
+T:  18 >   F4(0) changed from RETURNING to WAITING
+T:  18 >   F5(0)-> Delivered(  11) [Mail Item:: ID:     38 | Arrival:   13 | Destination: 12 | Weight:  518 | Service Fee: 0.58 | Maintenance: 0.50 | Avg. Operating Time: 10.00 | Total Charge: 1.08]
+T:  18 >   F5(0) changed from DELIVERING to RETURNING
+T:  19 > new addToPool [Mail Item:: ID:     59 | Arrival:   19 | Destination:  6 | Weight: 2000]
+T:  19 > new addToPool [Mail Item:: ID:     82 | Arrival:   19 | Destination:  9 | Weight:  499]
+T:  19 > new addToPool [Mail Item:: ID:    143 | Arrival:   19 | Destination:  2 | Weight: 1101]
+T:  19 > new addToPool [Mail Item:: ID:    150 | Arrival:   19 | Destination: 10 | Weight: 1566]
+T:  19 > new addToPool [Mail Item:: ID:    153 | Arrival:   19 | Destination:  9 | Weight:  566]
+T:  19 >   R2(0)-> Delivered(  12) [Mail Item:: ID:     80 | Arrival:    5 | Destination:  7 | Weight:  625 | Service Fee: 3.21 | Maintenance: 0.40 | Avg. Operating Time: 16.00 | Total Charge: 3.61]
+T:  19 >   R2(0) changed from DELIVERING to RETURNING
+T:  19 >   F3(0) changed from WAITING to DELIVERING
+T:  19 >   F3(0)-> [Mail Item:: ID:    150 | Arrival:   19 | Destination: 10 | Weight: 1566]
+T:  19 >   F4(0) changed from WAITING to DELIVERING
+T:  19 >   F4(0)-> [Mail Item:: ID:     82 | Arrival:   19 | Destination:  9 | Weight:  499]
+T:  19 >   B8(0)-> Delivered(  13) [Mail Item:: ID:     49 | Arrival:   11 | Destination:  8 | Weight:  209 | Service Fee: 0.00 | Maintenance: 0.11 | Avg. Operating Time: 11.00 | Total Charge: 0.11]
+T:  19 >   B8(0) changed from DELIVERING to RETURNING
+T:  20 > new addToPool [Mail Item:: ID:    104 | Arrival:   20 | Destination:  3 | Weight:  550]
+T:  20 > new addToPool [Mail Item:: ID:    124 | Arrival:   20 | Destination: 10 | Weight:  580]
+T:  21 > new addToPool [Mail Item:: ID:    101 | Arrival:   21 | Destination:  2 | Weight: 1646]
+T:  21 > new addToPool [Mail Item:: ID:    106 | Arrival:   21 | Destination:  1 | Weight: 1878]
+T:  21 > new addToPool [Mail Item:: ID:    107 | Arrival:   21 | Destination:  5 | Weight:  278]
+T:  21 > new addToPool [Mail Item:: ID:    130 | Arrival:   21 | Destination:  3 | Weight: 1586]
+T:  21 >   B7(4)-> Delivered(  14) [Mail Item:: ID:    145 | Arrival:   15 | Destination:  4 | Weight:  228 | Service Fee: 4.00 | Maintenance: 0.13 | Avg. Operating Time: 12.67 | Total Charge: 4.13]
+T:  21 >   B7(4)-> [Mail Item:: ID:     52 | Arrival:   16 | Destination:  7 | Weight: 2000]
+T:  22 >   R1(0) changed from RETURNING to WAITING
+T:  23 > new addToPool [Mail Item:: ID:     69 | Arrival:   23 | Destination:  5 | Weight:  663]
+T:  23 >   R0(0) changed from RETURNING to WAITING
+T:  23 >   R1(1) changed from WAITING to DELIVERING
+T:  23 >   R1(1)-> [Mail Item:: ID:    124 | Arrival:   20 | Destination: 10 | Weight:  580]
+T:  23 >   F3(0)-> Delivered(  15) [Mail Item:: ID:    150 | Arrival:   19 | Destination: 10 | Weight: 1566 | Service Fee: 1.78 | Maintenance: 0.68 | Avg. Operating Time: 13.67 | Total Charge: 2.46]
+T:  23 >   F3(0) changed from DELIVERING to RETURNING
+T:  23 >   F4(0)-> Delivered(  16) [Mail Item:: ID:     82 | Arrival:   19 | Destination:  9 | Weight:  499 | Service Fee: 0.71 | Maintenance: 0.70 | Avg. Operating Time: 14.00 | Total Charge: 1.41]
+T:  23 >   F4(0) changed from DELIVERING to RETURNING
+T:  23 >   F5(0) changed from RETURNING to WAITING
+T:  24 > new addToPool [Mail Item:: ID:     94 | Arrival:   24 | Destination: 11 | Weight:  871]
+T:  24 >   R0(1) changed from WAITING to DELIVERING
+T:  24 >   R0(1)-> [Mail Item:: ID:     94 | Arrival:   24 | Destination: 11 | Weight:  871]
+T:  24 >   F5(0) changed from WAITING to DELIVERING
+T:  24 >   F5(0)-> [Mail Item:: ID:     67 | Arrival:   18 | Destination:  7 | Weight:  439]
+T:  25 >   B6(0) changed from RETURNING to WAITING
+T:  25 >   B7(3)-> Delivered(  17) [Mail Item:: ID:     52 | Arrival:   16 | Destination:  7 | Weight: 2000 | Service Fee: 3.21 | Maintenance: 0.17 | Avg. Operating Time: 16.67 | Total Charge: 3.37]
+T:  25 >   B7(3)-> [Mail Item:: ID:     91 | Arrival:   17 | Destination: 10 | Weight: 1656]
+T:  26 >   R2(0) changed from RETURNING to WAITING
+T:  26 >   B6(5) changed from WAITING to DELIVERING
+T:  26 >   B6(5)-> [Mail Item:: ID:    104 | Arrival:   20 | Destination:  3 | Weight:  550]
+T:  27 > new addToPool [Mail Item:: ID:    112 | Arrival:   27 | Destination:  3 | Weight: 1397]
+T:  27 > new addToPool [Mail Item:: ID:    140 | Arrival:   27 | Destination: 10 | Weight:  865]
+T:  27 >   R2(1) changed from WAITING to DELIVERING
+T:  27 >   R2(1)-> [Mail Item:: ID:    140 | Arrival:   27 | Destination: 10 | Weight:  865]
+T:  27 >   F3(0) changed from RETURNING to WAITING
+T:  27 >   F4(0) changed from RETURNING to WAITING
+T:  27 >   F5(0)-> Delivered(  18) [Mail Item:: ID:     67 | Arrival:   18 | Destination:  7 | Weight:  439 | Service Fee: 3.41 | Maintenance: 0.90 | Avg. Operating Time: 18.00 | Total Charge: 4.31]
+T:  27 >   F5(0) changed from DELIVERING to RETURNING
+T:  27 >   B8(0) changed from RETURNING to WAITING
+T:  28 > new addToPool [Mail Item:: ID:    159 | Arrival:   28 | Destination:  3 | Weight:  389]
+T:  28 >   F3(0) changed from WAITING to DELIVERING
+T:  28 >   F3(0)-> [Mail Item:: ID:    112 | Arrival:   27 | Destination:  3 | Weight: 1397]
+T:  28 >   F4(0) changed from WAITING to DELIVERING
+T:  28 >   F4(0)-> [Mail Item:: ID:    159 | Arrival:   28 | Destination:  3 | Weight:  389]
+T:  28 >   B8(4) changed from WAITING to DELIVERING
+T:  28 >   B8(4)-> [Mail Item:: ID:    106 | Arrival:   21 | Destination:  1 | Weight: 1878]
+T:  29 >   B6(4)-> Delivered(  19) [Mail Item:: ID:    104 | Arrival:   20 | Destination:  3 | Weight:  550 | Service Fee: 0.99 | Maintenance: 0.20 | Avg. Operating Time: 19.67 | Total Charge: 1.18]
+T:  29 >   B6(4)-> [Mail Item:: ID:     45 | Arrival:   17 | Destination:  4 | Weight: 2000]
+T:  29 >   B7(2)-> Delivered(  20) [Mail Item:: ID:     91 | Arrival:   17 | Destination: 10 | Weight: 1656 | Service Fee: 1.78 | Maintenance: 0.20 | Avg. Operating Time: 20.00 | Total Charge: 1.98]
+T:  29 >   B7(2)-> [Mail Item:: ID:     51 | Arrival:   17 | Destination: 10 | Weight:  746]
+T:  29 >   B8(3)-> Delivered(  21) [Mail Item:: ID:    106 | Arrival:   21 | Destination:  1 | Weight: 1878 | Service Fee: 2.16 | Maintenance: 0.20 | Avg. Operating Time: 20.33 | Total Charge: 2.36]
+T:  29 >   B8(3)-> [Mail Item:: ID:    101 | Arrival:   21 | Destination:  2 | Weight: 1646]
+T:  30 > new addToPool [Mail Item:: ID:     88 | Arrival:   30 | Destination:  8 | Weight:  550]
+T:  30 > new addToPool [Mail Item:: ID:    123 | Arrival:   30 | Destination:  8 | Weight:  312]
+T:  30 >   F3(0)-> Delivered(  22) [Mail Item:: ID:    112 | Arrival:   27 | Destination:  3 | Weight: 1397 | Service Fee: 0.99 | Maintenance: 0.98 | Avg. Operating Time: 19.67 | Total Charge: 1.97]
+T:  30 >   F3(0) changed from DELIVERING to RETURNING
+T:  30 >   F4(0)-> Delivered(  23) [Mail Item:: ID:    159 | Arrival:   28 | Destination:  3 | Weight:  389 | Service Fee: 1.19 | Maintenance: 1.00 | Avg. Operating Time: 20.00 | Total Charge: 2.19]
+T:  30 >   F4(0) changed from DELIVERING to RETURNING
+T:  30 >   F5(0) changed from RETURNING to WAITING
+T:  30 >   B7(1)-> Delivered(  24) [Mail Item:: ID:     51 | Arrival:   17 | Destination: 10 | Weight:  746 | Service Fee: 1.98 | Maintenance: 0.21 | Avg. Operating Time: 21.00 | Total Charge: 2.19]
+T:  30 >   B7(1)-> [Mail Item:: ID:     22 | Arrival:   15 | Destination: 12 | Weight: 1444]
+T:  31 > new addToPool [Mail Item:: ID:    114 | Arrival:   31 | Destination: 10 | Weight: 2000]
+T:  31 >   F5(0) changed from WAITING to DELIVERING
+T:  31 >   F5(0)-> [Mail Item:: ID:    114 | Arrival:   31 | Destination: 10 | Weight: 2000]
+T:  31 >   B6(3)-> Delivered(  25) [Mail Item:: ID:     45 | Arrival:   17 | Destination:  4 | Weight: 2000 | Service Fee: 4.00 | Maintenance: 0.22 | Avg. Operating Time: 21.67 | Total Charge: 4.22]
+T:  31 >   B6(3)-> [Mail Item:: ID:     69 | Arrival:   23 | Destination:  5 | Weight:  663]
+T:  31 >   B8(2)-> Delivered(  26) [Mail Item:: ID:    101 | Arrival:   21 | Destination:  2 | Weight: 1646 | Service Fee: 1.12 | Maintenance: 0.22 | Avg. Operating Time: 22.33 | Total Charge: 1.35]
+T:  31 >   B8(2)-> [Mail Item:: ID:    143 | Arrival:   19 | Destination:  2 | Weight: 1101]
+T:  32 > new addToPool [Mail Item:: ID:     13 | Arrival:   32 | Destination:  5 | Weight: 1187]
+T:  32 > new addToPool [Mail Item:: ID:     57 | Arrival:   32 | Destination: 10 | Weight:  266]
+T:  32 >   F3(0) changed from RETURNING to WAITING
+T:  32 >   F4(0) changed from RETURNING to WAITING
+T:  32 >   B8(1)-> Delivered(  27) [Mail Item:: ID:    143 | Arrival:   19 | Destination:  2 | Weight: 1101 | Service Fee: 1.12 | Maintenance: 0.23 | Avg. Operating Time: 23.33 | Total Charge: 1.36]
+T:  32 >   B8(1)-> [Mail Item:: ID:     68 | Arrival:   17 | Destination:  2 | Weight: 2000]
+T:  33 > new addToPool [Mail Item:: ID:     23 | Arrival:   33 | Destination:  1 | Weight:  853]
+T:  33 > new addToPool [Mail Item:: ID:     62 | Arrival:   33 | Destination: 10 | Weight: 1955]
+T:  33 > new addToPool [Mail Item:: ID:    147 | Arrival:   33 | Destination:  2 | Weight:  795]
+T:  33 >   R1(1)-> Delivered(  28) [Mail Item:: ID:    124 | Arrival:   20 | Destination: 10 | Weight:  580 | Service Fee: 2.18 | Maintenance: 0.72 | Avg. Operating Time: 28.67 | Total Charge: 2.89]
+T:  33 >   R1(0)-> [Mail Item:: ID:    153 | Arrival:   19 | Destination:  9 | Weight:  566]
+T:  33 >   F3(0) changed from WAITING to DELIVERING
+T:  33 >   F3(0)-> [Mail Item:: ID:     57 | Arrival:   32 | Destination: 10 | Weight:  266]
+T:  33 >   F4(0) changed from WAITING to DELIVERING
+T:  33 >   F4(0)-> [Mail Item:: ID:     62 | Arrival:   33 | Destination: 10 | Weight: 1955]
+T:  33 >   B6(2)-> Delivered(  29) [Mail Item:: ID:     69 | Arrival:   23 | Destination:  5 | Weight:  663 | Service Fee: 0.69 | Maintenance: 0.24 | Avg. Operating Time: 23.67 | Total Charge: 0.92]
+T:  33 >   B6(2)-> [Mail Item:: ID:    107 | Arrival:   21 | Destination:  5 | Weight:  278]
+T:  33 >   B7(0)-> Delivered(  30) [Mail Item:: ID:     22 | Arrival:   15 | Destination: 12 | Weight: 1444 | Service Fee: 0.58 | Maintenance: 0.24 | Avg. Operating Time: 24.00 | Total Charge: 0.82]
+T:  33 >   B7(0) changed from DELIVERING to RETURNING
+T:  33 >   B8(0)-> Delivered(  31) [Mail Item:: ID:     68 | Arrival:   17 | Destination:  2 | Weight: 2000 | Service Fee: 1.12 | Maintenance: 0.24 | Avg. Operating Time: 24.33 | Total Charge: 1.37]
+T:  33 >   B8(0) changed from DELIVERING to RETURNING
+T:  34 > new addToPool [Mail Item:: ID:      4 | Arrival:   34 | Destination: 11 | Weight:  496]
+T:  34 > new addToPool [Mail Item:: ID:     73 | Arrival:   34 | Destination:  1 | Weight:  533]
+T:  34 >   B6(1)-> Delivered(  32) [Mail Item:: ID:    107 | Arrival:   21 | Destination:  5 | Weight:  278 | Service Fee: 0.69 | Maintenance: 0.25 | Avg. Operating Time: 24.67 | Total Charge: 0.93]
+T:  34 >   B6(1)-> [Mail Item:: ID:     59 | Arrival:   19 | Destination:  6 | Weight: 2000]
+T:  35 > new addToPool [Mail Item:: ID:    113 | Arrival:   35 | Destination:  4 | Weight: 1951]
+T:  35 > new addToPool [Mail Item:: ID:    155 | Arrival:   35 | Destination: 11 | Weight: 1723]
+T:  35 >   R0(1)-> Delivered(  33) [Mail Item:: ID:     94 | Arrival:   24 | Destination: 11 | Weight:  871 | Service Fee: 2.87 | Maintenance: 0.76 | Avg. Operating Time: 30.33 | Total Charge: 3.63]
+T:  35 >   R0(0)-> [Mail Item:: ID:     28 | Arrival:   18 | Destination:  8 | Weight: 1434]
+T:  35 >   R1(0)-> Delivered(  34) [Mail Item:: ID:    153 | Arrival:   19 | Destination:  9 | Weight:  566 | Service Fee: 0.71 | Maintenance: 0.77 | Avg. Operating Time: 30.67 | Total Charge: 1.48]
+T:  35 >   R1(0) changed from DELIVERING to RETURNING
+T:  35 >   F5(0)-> Delivered(  35) [Mail Item:: ID:    114 | Arrival:   31 | Destination: 10 | Weight: 2000 | Service Fee: 2.18 | Maintenance: 1.22 | Avg. Operating Time: 24.33 | Total Charge: 3.39]
+T:  35 >   F5(0) changed from DELIVERING to RETURNING
+T:  35 >   B8(0) changed from RETURNING to WAITING
+T:  36 > new addToPool [Mail Item:: ID:     41 | Arrival:   36 | Destination:  7 | Weight: 1591]
+T:  36 > new addToPool [Mail Item:: ID:    132 | Arrival:   36 | Destination:  6 | Weight:  219]
+T:  36 > new addToPool [Mail Item:: ID:    154 | Arrival:   36 | Destination:  3 | Weight:  306]
+T:  36 >   B6(0)-> Delivered(  36) [Mail Item:: ID:     59 | Arrival:   19 | Destination:  6 | Weight: 2000 | Service Fee: 1.61 | Maintenance: 0.27 | Avg. Operating Time: 26.67 | Total Charge: 1.87]
+T:  36 >   B6(0) changed from DELIVERING to RETURNING
+T:  36 >   B8(5) changed from WAITING to DELIVERING
+T:  36 >   B8(5)-> [Mail Item:: ID:     41 | Arrival:   36 | Destination:  7 | Weight: 1591]
+T:  37 > new addToPool [Mail Item:: ID:      2 | Arrival:   37 | Destination: 11 | Weight:  328]
+T:  37 >   R2(1)-> Delivered(  37) [Mail Item:: ID:    140 | Arrival:   27 | Destination: 10 | Weight:  865 | Service Fee: 2.38 | Maintenance: 0.83 | Avg. Operating Time: 33.00 | Total Charge: 3.20]
+T:  37 >   R2(0)-> [Mail Item:: ID:    130 | Arrival:   21 | Destination:  3 | Weight: 1586]
+T:  37 >   F3(0)-> Delivered(  38) [Mail Item:: ID:     57 | Arrival:   32 | Destination: 10 | Weight:  266 | Service Fee: 2.38 | Maintenance: 1.28 | Avg. Operating Time: 25.67 | Total Charge: 3.66]
+T:  37 >   F3(0) changed from DELIVERING to RETURNING
+T:  37 >   F4(0)-> Delivered(  39) [Mail Item:: ID:     62 | Arrival:   33 | Destination: 10 | Weight: 1955 | Service Fee: 2.38 | Maintenance: 1.30 | Avg. Operating Time: 26.00 | Total Charge: 3.68]
+T:  37 >   F4(0) changed from DELIVERING to RETURNING
+T:  39 > new addToPool [Mail Item:: ID:     50 | Arrival:   39 | Destination:  2 | Weight:  921]
+T:  39 >   R0(0)-> Delivered(  40) [Mail Item:: ID:     28 | Arrival:   18 | Destination:  8 | Weight: 1434 | Service Fee: 2.13 | Maintenance: 0.86 | Avg. Operating Time: 34.33 | Total Charge: 2.99]
+T:  39 >   R0(0) changed from DELIVERING to RETURNING
+T:  39 >   F5(0) changed from RETURNING to WAITING
+T:  40 >   F5(0) changed from WAITING to DELIVERING
+T:  40 >   F5(0)-> [Mail Item:: ID:      2 | Arrival:   37 | Destination: 11 | Weight:  328]
+T:  41 >   F3(0) changed from RETURNING to WAITING
+T:  41 >   F4(0) changed from RETURNING to WAITING
+T:  42 >   F3(0) changed from WAITING to DELIVERING
+T:  42 >   F3(0)-> [Mail Item:: ID:    132 | Arrival:   36 | Destination:  6 | Weight:  219]
+T:  42 >   F4(0) changed from WAITING to DELIVERING
+T:  42 >   F4(0)-> [Mail Item:: ID:     13 | Arrival:   32 | Destination:  5 | Weight: 1187]
+T:  42 >   B6(0) changed from RETURNING to WAITING
+T:  43 > new addToPool [Mail Item:: ID:    151 | Arrival:   43 | Destination:  9 | Weight:  244]
+T:  43 >   B6(5) changed from WAITING to DELIVERING
+T:  43 >   B6(5)-> [Mail Item:: ID:     50 | Arrival:   39 | Destination:  2 | Weight:  921]
+T:  43 >   B8(4)-> Delivered(  41) [Mail Item:: ID:     41 | Arrival:   36 | Destination:  7 | Weight: 1591 | Service Fee: 3.61 | Maintenance: 0.34 | Avg. Operating Time: 33.67 | Total Charge: 3.94]
+T:  43 >   B8(4)-> [Mail Item:: ID:    123 | Arrival:   30 | Destination:  8 | Weight:  312]
+T:  44 > new addToPool [Mail Item:: ID:     15 | Arrival:   44 | Destination:  4 | Weight:  883]
+T:  44 >   R1(0) changed from RETURNING to WAITING
+T:  45 > new addToPool [Mail Item:: ID:     78 | Arrival:   45 | Destination:  2 | Weight: 1040]
+T:  45 > new addToPool [Mail Item:: ID:     99 | Arrival:   45 | Destination:  9 | Weight:  330]
+T:  45 >   R1(1) changed from WAITING to DELIVERING
+T:  45 >   R1(1)-> [Mail Item:: ID:     99 | Arrival:   45 | Destination:  9 | Weight:  330]
+T:  45 >   R2(0)-> Delivered(  42) [Mail Item:: ID:    130 | Arrival:   21 | Destination:  3 | Weight: 1586 | Service Fee: 1.39 | Maintenance: 1.02 | Avg. Operating Time: 40.67 | Total Charge: 2.40]
+T:  45 >   R2(0) changed from DELIVERING to RETURNING
+T:  45 >   F3(0)-> Delivered(  43) [Mail Item:: ID:    132 | Arrival:   36 | Destination:  6 | Weight:  219 | Service Fee: 1.61 | Maintenance: 1.63 | Avg. Operating Time: 32.67 | Total Charge: 3.24]
+T:  45 >   F3(0) changed from DELIVERING to RETURNING
+T:  45 >   F4(0)-> Delivered(  44) [Mail Item:: ID:     13 | Arrival:   32 | Destination:  5 | Weight: 1187 | Service Fee: 0.69 | Maintenance: 1.65 | Avg. Operating Time: 33.00 | Total Charge: 2.34]
+T:  45 >   F4(0) changed from DELIVERING to RETURNING
+T:  45 >   F5(0)-> Delivered(  45) [Mail Item:: ID:      2 | Arrival:   37 | Destination: 11 | Weight:  328 | Service Fee: 3.07 | Maintenance: 1.67 | Avg. Operating Time: 33.33 | Total Charge: 4.74]
+T:  45 >   F5(0) changed from DELIVERING to RETURNING
+T:  45 >   B6(4)-> Delivered(  46) [Mail Item:: ID:     50 | Arrival:   39 | Destination:  2 | Weight:  921 | Service Fee: 1.32 | Maintenance: 0.35 | Avg. Operating Time: 35.00 | Total Charge: 1.67]
+T:  45 >   B6(4)-> [Mail Item:: ID:    147 | Arrival:   33 | Destination:  2 | Weight:  795]
+T:  45 >   B7(0) changed from RETURNING to WAITING
+T:  45 >   B8(3)-> Delivered(  47) [Mail Item:: ID:    123 | Arrival:   30 | Destination:  8 | Weight:  312 | Service Fee: 2.13 | Maintenance: 0.36 | Avg. Operating Time: 35.67 | Total Charge: 2.48]
+T:  45 >   B8(3)-> [Mail Item:: ID:     88 | Arrival:   30 | Destination:  8 | Weight:  550]
+T:  46 > new addToPool [Mail Item:: ID:     24 | Arrival:   46 | Destination: 12 | Weight:  407]
+T:  46 > new addToPool [Mail Item:: ID:     61 | Arrival:   46 | Destination:  6 | Weight:  800]
+T:  46 >   B6(3)-> Delivered(  48) [Mail Item:: ID:    147 | Arrival:   33 | Destination:  2 | Weight:  795 | Service Fee: 1.32 | Maintenance: 0.36 | Avg. Operating Time: 36.00 | Total Charge: 1.68]
+T:  46 >   B6(3)-> [Mail Item:: ID:    154 | Arrival:   36 | Destination:  3 | Weight:  306]
+T:  46 >   B7(5) changed from WAITING to DELIVERING
+T:  46 >   B7(5)-> [Mail Item:: ID:     73 | Arrival:   34 | Destination:  1 | Weight:  533]
+T:  46 >   B8(2)-> Delivered(  49) [Mail Item:: ID:     88 | Arrival:   30 | Destination:  8 | Weight:  550 | Service Fee: 2.13 | Maintenance: 0.36 | Avg. Operating Time: 36.33 | Total Charge: 2.49]
+T:  46 >   B8(2)-> [Mail Item:: ID:    155 | Arrival:   35 | Destination: 11 | Weight: 1723]
+T:  47 >   R0(0) changed from RETURNING to WAITING
+T:  47 >   B7(4)-> Delivered(  50) [Mail Item:: ID:     73 | Arrival:   34 | Destination:  1 | Weight:  533 | Service Fee: 2.16 | Maintenance: 0.37 | Avg. Operating Time: 37.00 | Total Charge: 2.53]
+T:  47 >   B7(4)-> [Mail Item:: ID:     23 | Arrival:   33 | Destination:  1 | Weight:  853]
+T:  48 > new addToPool [Mail Item:: ID:     74 | Arrival:   48 | Destination:  8 | Weight: 1393]
+T:  48 >   R0(0) changed from WAITING to DELIVERING
+T:  48 >   R0(0)-> [Mail Item:: ID:     74 | Arrival:   48 | Destination:  8 | Weight: 1393]
+T:  48 >   R2(0) changed from RETURNING to WAITING
+T:  48 >   F3(0) changed from RETURNING to WAITING
+T:  48 >   F4(0) changed from RETURNING to WAITING
+T:  48 >   B6(2)-> Delivered(  51) [Mail Item:: ID:    154 | Arrival:   36 | Destination:  3 | Weight:  306 | Service Fee: 1.39 | Maintenance: 0.38 | Avg. Operating Time: 37.67 | Total Charge: 1.76]
+T:  48 >   B6(2)-> [Mail Item:: ID:    113 | Arrival:   35 | Destination:  4 | Weight: 1951]
+T:  48 >   B7(3)-> Delivered(  52) [Mail Item:: ID:     23 | Arrival:   33 | Destination:  1 | Weight:  853 | Service Fee: 2.16 | Maintenance: 0.38 | Avg. Operating Time: 38.00 | Total Charge: 2.54]
+T:  48 >   B7(3)-> [Mail Item:: ID:     78 | Arrival:   45 | Destination:  2 | Weight: 1040]
+T:  49 > new addToPool [Mail Item:: ID:      5 | Arrival:   49 | Destination:  8 | Weight:  351]
+T:  49 > new addToPool [Mail Item:: ID:     86 | Arrival:   49 | Destination:  8 | Weight: 1106]
+T:  49 >   R2(1) changed from WAITING to DELIVERING
+T:  49 >   R2(1)-> [Mail Item:: ID:      5 | Arrival:   49 | Destination:  8 | Weight:  351]
+T:  50 > new addToPool [Mail Item:: ID:     14 | Arrival:   50 | Destination:  9 | Weight:  534]
+T:  50 >   F3(0) changed from WAITING to DELIVERING
+T:  50 >   F3(0)-> [Mail Item:: ID:     14 | Arrival:   50 | Destination:  9 | Weight:  534]
+T:  50 >   F5(0) changed from RETURNING to WAITING
+T:  50 >   B6(1)-> Delivered(  53) [Mail Item:: ID:    113 | Arrival:   35 | Destination:  4 | Weight: 1951 | Service Fee: 4.00 | Maintenance: 0.40 | Avg. Operating Time: 39.67 | Total Charge: 4.40]
+T:  50 >   B6(1)-> [Mail Item:: ID:    151 | Arrival:   43 | Destination:  9 | Weight:  244]
+T:  50 >   B7(2)-> Delivered(  54) [Mail Item:: ID:     78 | Arrival:   45 | Destination:  2 | Weight: 1040 | Service Fee: 1.32 | Maintenance: 0.40 | Avg. Operating Time: 40.00 | Total Charge: 1.72]
+T:  50 >   B7(2)-> [Mail Item:: ID:     61 | Arrival:   46 | Destination:  6 | Weight:  800]
+T:  50 >   B8(1)-> Delivered(  55) [Mail Item:: ID:    155 | Arrival:   35 | Destination: 11 | Weight: 1723 | Service Fee: 3.07 | Maintenance: 0.40 | Avg. Operating Time: 40.33 | Total Charge: 3.48]
+T:  50 >   B8(1)-> [Mail Item:: ID:      4 | Arrival:   34 | Destination: 11 | Weight:  496]
+T:  51 > new addToPool [Mail Item:: ID:     30 | Arrival:   51 | Destination:  7 | Weight: 1080]
+T:  51 > new addToPool [Mail Item:: ID:     90 | Arrival:   51 | Destination:  4 | Weight:  200]
+T:  51 >   F4(0) changed from WAITING to DELIVERING
+T:  51 >   F4(0)-> [Mail Item:: ID:     30 | Arrival:   51 | Destination:  7 | Weight: 1080]
+T:  51 >   F5(0) changed from WAITING to DELIVERING
+T:  51 >   F5(0)-> [Mail Item:: ID:     90 | Arrival:   51 | Destination:  4 | Weight:  200]
+T:  51 >   B8(0)-> Delivered(  56) [Mail Item:: ID:      4 | Arrival:   34 | Destination: 11 | Weight:  496 | Service Fee: 3.07 | Maintenance: 0.41 | Avg. Operating Time: 41.33 | Total Charge: 3.49]
+T:  51 >   B8(0) changed from DELIVERING to RETURNING
+T:  52 > new addToPool [Mail Item:: ID:      8 | Arrival:   52 | Destination:  7 | Weight:  790]
+T:  53 > new addToPool [Mail Item:: ID:    115 | Arrival:   53 | Destination:  2 | Weight:  363]
+T:  53 > new addToPool [Mail Item:: ID:    135 | Arrival:   53 | Destination: 10 | Weight:  959]
+T:  53 >   F5(0)-> Delivered(  57) [Mail Item:: ID:     90 | Arrival:   51 | Destination:  4 | Weight:  200 | Service Fee: 4.00 | Maintenance: 1.97 | Avg. Operating Time: 39.33 | Total Charge: 5.97]
+T:  53 >   F5(0) changed from DELIVERING to RETURNING
+T:  54 > new addToPool [Mail Item:: ID:     79 | Arrival:   54 | Destination:  2 | Weight:  532]
+T:  54 > new addToPool [Mail Item:: ID:    138 | Arrival:   54 | Destination:  6 | Weight:  366]
+T:  54 >   R1(1)-> Delivered(  58) [Mail Item:: ID:     99 | Arrival:   45 | Destination:  9 | Weight:  330 | Service Fee: 0.71 | Maintenance: 1.22 | Avg. Operating Time: 48.67 | Total Charge: 1.93]
+T:  54 >   R1(0)-> [Mail Item:: ID:     15 | Arrival:   44 | Destination:  4 | Weight:  883]
+T:  54 >   F3(0)-> Delivered(  59) [Mail Item:: ID:     14 | Arrival:   50 | Destination:  9 | Weight:  534 | Service Fee: 0.91 | Maintenance: 1.98 | Avg. Operating Time: 39.67 | Total Charge: 2.90]
+T:  54 >   F3(0) changed from DELIVERING to RETURNING
+T:  54 >   F4(0)-> Delivered(  60) [Mail Item:: ID:     30 | Arrival:   51 | Destination:  7 | Weight: 1080 | Service Fee: 3.61 | Maintenance: 2.00 | Avg. Operating Time: 40.00 | Total Charge: 5.61]
+T:  54 >   F4(0) changed from DELIVERING to RETURNING
+T:  55 > new addToPool [Mail Item:: ID:      0 | Arrival:   55 | Destination: 12 | Weight: 2000]
+T:  55 > new addToPool [Mail Item:: ID:     75 | Arrival:   55 | Destination:  2 | Weight:  829]
+T:  55 > new addToPool [Mail Item:: ID:     87 | Arrival:   55 | Destination:  3 | Weight: 2000]
+T:  55 >   F5(0) changed from RETURNING to WAITING
+T:  55 >   B7(1)-> Delivered(  61) [Mail Item:: ID:     61 | Arrival:   46 | Destination:  6 | Weight:  800 | Service Fee: 1.61 | Maintenance: 0.45 | Avg. Operating Time: 45.00 | Total Charge: 2.06]
+T:  55 >   B7(1)-> [Mail Item:: ID:     24 | Arrival:   46 | Destination: 12 | Weight:  407]
+T:  56 >   R0(0)-> Delivered(  62) [Mail Item:: ID:     74 | Arrival:   48 | Destination:  8 | Weight: 1393 | Service Fee: 2.33 | Maintenance: 1.26 | Avg. Operating Time: 50.33 | Total Charge: 3.59]
+T:  56 >   R0(0) changed from DELIVERING to RETURNING
+T:  56 >   F5(0) changed from WAITING to DELIVERING
+T:  56 >   F5(0)-> [Mail Item:: ID:      0 | Arrival:   55 | Destination: 12 | Weight: 2000]
+T:  56 >   B6(0)-> Delivered(  63) [Mail Item:: ID:    151 | Arrival:   43 | Destination:  9 | Weight:  244 | Service Fee: 0.91 | Maintenance: 0.46 | Avg. Operating Time: 45.67 | Total Charge: 1.37]
+T:  56 >   B6(0) changed from DELIVERING to RETURNING
+T:  57 > new addToPool [Mail Item:: ID:    134 | Arrival:   57 | Destination:  5 | Weight:  535]
+T:  57 >   R2(1)-> Delivered(  64) [Mail Item:: ID:      5 | Arrival:   49 | Destination:  8 | Weight:  351 | Service Fee: 2.53 | Maintenance: 1.30 | Avg. Operating Time: 52.00 | Total Charge: 3.83]
+T:  57 >   R2(0)-> [Mail Item:: ID:     86 | Arrival:   49 | Destination:  8 | Weight: 1106]
+T:  57 >   F4(0) changed from RETURNING to WAITING
+T:  58 > new addToPool [Mail Item:: ID:    120 | Arrival:   58 | Destination:  7 | Weight: 2000]
+T:  58 >   R2(0)-> Delivered(  65) [Mail Item:: ID:     86 | Arrival:   49 | Destination:  8 | Weight: 1106 | Service Fee: 2.53 | Maintenance: 1.33 | Avg. Operating Time: 53.00 | Total Charge: 3.85]
+T:  58 >   R2(0) changed from DELIVERING to RETURNING
+T:  58 >   F3(0) changed from RETURNING to WAITING
+T:  58 >   F4(0) changed from WAITING to DELIVERING
+T:  58 >   F4(0)-> [Mail Item:: ID:    135 | Arrival:   53 | Destination: 10 | Weight:  959]
+T:  59 > new addToPool [Mail Item:: ID:    137 | Arrival:   59 | Destination:  7 | Weight:  581]
+T:  59 >   F3(0) changed from WAITING to DELIVERING
+T:  59 >   F3(0)-> [Mail Item:: ID:      8 | Arrival:   52 | Destination:  7 | Weight:  790]
+T:  60 > new addToPool [Mail Item:: ID:     48 | Arrival:   60 | Destination:  9 | Weight:  555]
+T:  60 >   R1(0)-> Delivered(  66) [Mail Item:: ID:     15 | Arrival:   44 | Destination:  4 | Weight:  883 | Service Fee: 4.00 | Maintenance: 1.37 | Avg. Operating Time: 54.67 | Total Charge: 5.37]
+T:  60 >   R1(0) changed from DELIVERING to RETURNING
+T:  61 > new addToPool [Mail Item:: ID:      6 | Arrival:   61 | Destination:  1 | Weight:  992]
+T:  61 > new addToPool [Mail Item:: ID:     33 | Arrival:   61 | Destination: 10 | Weight:  205]
+T:  61 > new addToPool [Mail Item:: ID:    146 | Arrival:   61 | Destination:  5 | Weight:  781]
+T:  61 >   F5(0)-> Delivered(  67) [Mail Item:: ID:      0 | Arrival:   55 | Destination: 12 | Weight: 2000 | Service Fee: 0.58 | Maintenance: 2.32 | Avg. Operating Time: 46.33 | Total Charge: 2.89]
+T:  61 >   F5(0) changed from DELIVERING to RETURNING
+T:  62 > new addToPool [Mail Item:: ID:    141 | Arrival:   62 | Destination:  1 | Weight: 2000]
+T:  62 >   F3(0)-> Delivered(  68) [Mail Item:: ID:      8 | Arrival:   52 | Destination:  7 | Weight:  790 | Service Fee: 3.61 | Maintenance: 2.33 | Avg. Operating Time: 46.67 | Total Charge: 5.94]
+T:  62 >   F3(0) changed from DELIVERING to RETURNING
+T:  62 >   F4(0)-> Delivered(  69) [Mail Item:: ID:    135 | Arrival:   53 | Destination: 10 | Weight:  959 | Service Fee: 2.38 | Maintenance: 2.35 | Avg. Operating Time: 47.00 | Total Charge: 4.73]
+T:  62 >   F4(0) changed from DELIVERING to RETURNING
+T:  62 >   B7(0)-> Delivered(  70) [Mail Item:: ID:     24 | Arrival:   46 | Destination: 12 | Weight:  407 | Service Fee: 0.78 | Maintenance: 0.52 | Avg. Operating Time: 52.00 | Total Charge: 1.30]
+T:  62 >   B7(0) changed from DELIVERING to RETURNING
+T:  62 >   B8(0) changed from RETURNING to WAITING
+T:  63 > new addToPool [Mail Item:: ID:    131 | Arrival:   63 | Destination:  8 | Weight:  326]
+T:  63 >   B8(5) changed from WAITING to DELIVERING
+T:  63 >   B8(5)-> [Mail Item:: ID:    137 | Arrival:   59 | Destination:  7 | Weight:  581]
+T:  64 > new addToPool [Mail Item:: ID:      7 | Arrival:   64 | Destination:  6 | Weight: 1523]
+T:  64 >   R0(0) changed from RETURNING to WAITING
+T:  64 >   R1(0) changed from RETURNING to WAITING
+T:  65 >   R0(1) changed from WAITING to DELIVERING
+T:  65 >   R0(1)-> [Mail Item:: ID:    138 | Arrival:   54 | Destination:  6 | Weight:  366]
+T:  65 >   R1(1) changed from WAITING to DELIVERING
+T:  65 >   R1(1)-> [Mail Item:: ID:    134 | Arrival:   57 | Destination:  5 | Weight:  535]
+T:  65 >   F3(0) changed from RETURNING to WAITING
+T:  65 >   B6(0) changed from RETURNING to WAITING
+T:  66 > new addToPool [Mail Item:: ID:     29 | Arrival:   66 | Destination:  6 | Weight:  514]
+T:  66 > new addToPool [Mail Item:: ID:     60 | Arrival:   66 | Destination:  2 | Weight:  657]
+T:  66 > new addToPool [Mail Item:: ID:    157 | Arrival:   66 | Destination:  2 | Weight:  385]
+T:  66 >   R2(0) changed from RETURNING to WAITING
+T:  66 >   F3(0) changed from WAITING to DELIVERING
+T:  66 >   F3(0)-> [Mail Item:: ID:     29 | Arrival:   66 | Destination:  6 | Weight:  514]
+T:  66 >   F4(0) changed from RETURNING to WAITING
+T:  66 >   F5(0) changed from RETURNING to WAITING
+T:  66 >   B6(5) changed from WAITING to DELIVERING
+T:  66 >   B6(5)-> [Mail Item:: ID:     60 | Arrival:   66 | Destination:  2 | Weight:  657]
+T:  67 > new addToPool [Mail Item:: ID:    139 | Arrival:   67 | Destination:  1 | Weight:  526]
+T:  67 > new addToPool [Mail Item:: ID:    148 | Arrival:   67 | Destination: 12 | Weight: 2000]
+T:  67 >   R2(1) changed from WAITING to DELIVERING
+T:  67 >   R2(1)-> [Mail Item:: ID:    148 | Arrival:   67 | Destination: 12 | Weight: 2000]
+T:  67 >   F4(0) changed from WAITING to DELIVERING
+T:  67 >   F4(0)-> [Mail Item:: ID:      6 | Arrival:   61 | Destination:  1 | Weight:  992]
+T:  67 >   F5(0) changed from WAITING to DELIVERING
+T:  67 >   F5(0)-> [Mail Item:: ID:    141 | Arrival:   62 | Destination:  1 | Weight: 2000]
+T:  68 > new addToPool [Mail Item:: ID:     17 | Arrival:   68 | Destination:  4 | Weight:  449]
+T:  68 > new addToPool [Mail Item:: ID:     19 | Arrival:   68 | Destination:  9 | Weight:  648]
+T:  68 > new addToPool [Mail Item:: ID:     64 | Arrival:   68 | Destination:  3 | Weight:  711]
+T:  68 > new addToPool [Mail Item:: ID:     93 | Arrival:   68 | Destination: 12 | Weight:  419]
+T:  68 > new addToPool [Mail Item:: ID:    152 | Arrival:   68 | Destination:  5 | Weight:  378]
+T:  68 >   F4(0)-> Delivered(  71) [Mail Item:: ID:      6 | Arrival:   61 | Destination:  1 | Weight:  992 | Service Fee: 2.16 | Maintenance: 2.60 | Avg. Operating Time: 52.00 | Total Charge: 4.76]
+T:  68 >   F4(0) changed from DELIVERING to RETURNING
+T:  68 >   F5(0)-> Delivered(  72) [Mail Item:: ID:    141 | Arrival:   62 | Destination:  1 | Weight: 2000 | Service Fee: 2.36 | Maintenance: 2.62 | Avg. Operating Time: 52.33 | Total Charge: 4.97]
+T:  68 >   F5(0) changed from DELIVERING to RETURNING
+T:  68 >   B6(4)-> Delivered(  73) [Mail Item:: ID:     60 | Arrival:   66 | Destination:  2 | Weight:  657 | Service Fee: 1.52 | Maintenance: 0.57 | Avg. Operating Time: 57.00 | Total Charge: 2.09]
+T:  68 >   B6(4)-> [Mail Item:: ID:     75 | Arrival:   55 | Destination:  2 | Weight:  829]
+T:  69 > new addToPool [Mail Item:: ID:     70 | Arrival:   69 | Destination:  5 | Weight:  314]
+T:  69 >   F3(0)-> Delivered(  74) [Mail Item:: ID:     29 | Arrival:   66 | Destination:  6 | Weight:  514 | Service Fee: 1.81 | Maintenance: 2.63 | Avg. Operating Time: 52.67 | Total Charge: 4.44]
+T:  69 >   F3(0) changed from DELIVERING to RETURNING
+T:  69 >   F4(0) changed from RETURNING to WAITING
+T:  69 >   F5(0) changed from RETURNING to WAITING
+T:  69 >   B6(3)-> Delivered(  75) [Mail Item:: ID:     75 | Arrival:   55 | Destination:  2 | Weight:  829 | Service Fee: 1.52 | Maintenance: 0.58 | Avg. Operating Time: 58.00 | Total Charge: 2.10]
+T:  69 >   B6(3)-> [Mail Item:: ID:     79 | Arrival:   54 | Destination:  2 | Weight:  532]
+T:  70 >   R1(1)-> Delivered(  76) [Mail Item:: ID:    134 | Arrival:   57 | Destination:  5 | Weight:  535 | Service Fee: 0.89 | Maintenance: 1.59 | Avg. Operating Time: 63.67 | Total Charge: 2.48]
+T:  70 >   R1(0)-> [Mail Item:: ID:    146 | Arrival:   61 | Destination:  5 | Weight:  781]
+T:  70 >   F4(0) changed from WAITING to DELIVERING
+T:  70 >   F4(0)-> [Mail Item:: ID:     93 | Arrival:   68 | Destination: 12 | Weight:  419]
+T:  70 >   F5(0) changed from WAITING to DELIVERING
+T:  70 >   F5(0)-> [Mail Item:: ID:     19 | Arrival:   68 | Destination:  9 | Weight:  648]
+T:  70 >   B6(2)-> Delivered(  77) [Mail Item:: ID:     79 | Arrival:   54 | Destination:  2 | Weight:  532 | Service Fee: 1.52 | Maintenance: 0.59 | Avg. Operating Time: 59.00 | Total Charge: 2.11]
+T:  70 >   B6(2)-> [Mail Item:: ID:    115 | Arrival:   53 | Destination:  2 | Weight:  363]
+T:  70 >   B8(4)-> Delivered(  78) [Mail Item:: ID:    137 | Arrival:   59 | Destination:  7 | Weight:  581 | Service Fee: 3.81 | Maintenance: 0.60 | Avg. Operating Time: 59.67 | Total Charge: 4.40]
+T:  70 >   B8(4)-> [Mail Item:: ID:    120 | Arrival:   58 | Destination:  7 | Weight: 2000]
+T:  71 > new addToPool [Mail Item:: ID:     10 | Arrival:   71 | Destination:  5 | Weight: 1219]
+T:  71 > new addToPool [Mail Item:: ID:     83 | Arrival:   71 | Destination:  6 | Weight: 1967]
+T:  71 > new addToPool [Mail Item:: ID:    133 | Arrival:   71 | Destination:  3 | Weight:  400]
+T:  71 >   R0(1)-> Delivered(  79) [Mail Item:: ID:    138 | Arrival:   54 | Destination:  6 | Weight:  366 | Service Fee: 2.01 | Maintenance: 1.61 | Avg. Operating Time: 64.33 | Total Charge: 3.61]
+T:  71 >   R0(0)-> [Mail Item:: ID:      7 | Arrival:   64 | Destination:  6 | Weight: 1523]
+T:  71 >   R1(0)-> Delivered(  80) [Mail Item:: ID:    146 | Arrival:   61 | Destination:  5 | Weight:  781 | Service Fee: 0.89 | Maintenance: 1.62 | Avg. Operating Time: 64.67 | Total Charge: 2.50]
+T:  71 >   R1(0) changed from DELIVERING to RETURNING
+T:  71 >   B6(1)-> Delivered(  81) [Mail Item:: ID:    115 | Arrival:   53 | Destination:  2 | Weight:  363 | Service Fee: 1.52 | Maintenance: 0.60 | Avg. Operating Time: 60.00 | Total Charge: 2.12]
+T:  71 >   B6(1)-> [Mail Item:: ID:     87 | Arrival:   55 | Destination:  3 | Weight: 2000]
+T:  71 >   B8(3)-> Delivered(  82) [Mail Item:: ID:    120 | Arrival:   58 | Destination:  7 | Weight: 2000 | Service Fee: 3.81 | Maintenance: 0.61 | Avg. Operating Time: 60.67 | Total Charge: 4.41]
+T:  71 >   B8(3)-> [Mail Item:: ID:    131 | Arrival:   63 | Destination:  8 | Weight:  326]
+T:  72 > new addToPool [Mail Item:: ID:     32 | Arrival:   72 | Destination: 10 | Weight:  316]
+T:  72 >   R0(0)-> Delivered(  83) [Mail Item:: ID:      7 | Arrival:   64 | Destination:  6 | Weight: 1523 | Service Fee: 2.01 | Maintenance: 1.63 | Avg. Operating Time: 65.33 | Total Charge: 3.64]
+T:  72 >   R0(0) changed from DELIVERING to RETURNING
+T:  72 >   F3(0) changed from RETURNING to WAITING
+T:  73 >   F3(0) changed from WAITING to DELIVERING
+T:  73 >   F3(0)-> [Mail Item:: ID:     32 | Arrival:   72 | Destination: 10 | Weight:  316]
+T:  73 >   B6(0)-> Delivered(  84) [Mail Item:: ID:     87 | Arrival:   55 | Destination:  3 | Weight: 2000 | Service Fee: 1.39 | Maintenance: 0.62 | Avg. Operating Time: 62.00 | Total Charge: 2.01]
+T:  73 >   B6(0) changed from DELIVERING to RETURNING
+T:  73 >   B8(2)-> Delivered(  85) [Mail Item:: ID:    131 | Arrival:   63 | Destination:  8 | Weight:  326 | Service Fee: 2.53 | Maintenance: 0.63 | Avg. Operating Time: 62.67 | Total Charge: 3.15]
+T:  73 >   B8(2)-> [Mail Item:: ID:     48 | Arrival:   60 | Destination:  9 | Weight:  555]
+T:  74 >   F5(0)-> Delivered(  86) [Mail Item:: ID:     19 | Arrival:   68 | Destination:  9 | Weight:  648 | Service Fee: 0.91 | Maintenance: 2.87 | Avg. Operating Time: 57.33 | Total Charge: 3.78]
+T:  74 >   F5(0) changed from DELIVERING to RETURNING
+T:  74 >   B7(0) changed from RETURNING to WAITING
+T:  75 > new addToPool [Mail Item:: ID:     63 | Arrival:   75 | Destination:  6 | Weight:  386]
+T:  75 >   F4(0)-> Delivered(  87) [Mail Item:: ID:     93 | Arrival:   68 | Destination: 12 | Weight:  419 | Service Fee: 0.78 | Maintenance: 2.90 | Avg. Operating Time: 58.00 | Total Charge: 3.68]
+T:  75 >   F4(0) changed from DELIVERING to RETURNING
+T:  75 >   B7(5) changed from WAITING to DELIVERING
+T:  75 >   B7(5)-> [Mail Item:: ID:     10 | Arrival:   71 | Destination:  5 | Weight: 1219]
+T:  75 >   B8(1)-> Delivered(  88) [Mail Item:: ID:     48 | Arrival:   60 | Destination:  9 | Weight:  555 | Service Fee: 0.91 | Maintenance: 0.64 | Avg. Operating Time: 64.33 | Total Charge: 1.56]
+T:  75 >   B8(1)-> [Mail Item:: ID:     33 | Arrival:   61 | Destination: 10 | Weight:  205]
+T:  76 > new addToPool [Mail Item:: ID:     34 | Arrival:   76 | Destination:  7 | Weight: 1243]
+T:  76 > new addToPool [Mail Item:: ID:    103 | Arrival:   76 | Destination:  1 | Weight:  670]
+T:  76 >   R1(0) changed from RETURNING to WAITING
+T:  76 >   B6(0) changed from RETURNING to WAITING
+T:  77 > new addToPool [Mail Item:: ID:     53 | Arrival:   77 | Destination:  9 | Weight:  980]
+T:  77 >   R1(1) changed from WAITING to DELIVERING
+T:  77 >   R1(1)-> [Mail Item:: ID:     53 | Arrival:   77 | Destination:  9 | Weight:  980]
+T:  77 >   F3(0)-> Delivered(  89) [Mail Item:: ID:     32 | Arrival:   72 | Destination: 10 | Weight:  316 | Service Fee: 2.38 | Maintenance: 2.98 | Avg. Operating Time: 59.67 | Total Charge: 5.36]
+T:  77 >   F3(0) changed from DELIVERING to RETURNING
+T:  77 >   B6(5) changed from WAITING to DELIVERING
+T:  77 >   B6(5)-> [Mail Item:: ID:    103 | Arrival:   76 | Destination:  1 | Weight:  670]
+T:  77 >   B8(0)-> Delivered(  90) [Mail Item:: ID:     33 | Arrival:   61 | Destination: 10 | Weight:  205 | Service Fee: 2.38 | Maintenance: 0.66 | Avg. Operating Time: 66.00 | Total Charge: 3.04]
+T:  77 >   B8(0) changed from DELIVERING to RETURNING
+T:  78 > new addToPool [Mail Item:: ID:     55 | Arrival:   78 | Destination:  1 | Weight:  672]
+T:  78 >   R0(0) changed from RETURNING to WAITING
+T:  78 >   F5(0) changed from RETURNING to WAITING
+T:  78 >   B6(4)-> Delivered(  91) [Mail Item:: ID:    103 | Arrival:   76 | Destination:  1 | Weight:  670 | Service Fee: 2.56 | Maintenance: 0.66 | Avg. Operating Time: 66.33 | Total Charge: 3.22]
+T:  78 >   B6(4)-> [Mail Item:: ID:    139 | Arrival:   67 | Destination:  1 | Weight:  526]
+T:  79 > new addToPool [Mail Item:: ID:    105 | Arrival:   79 | Destination: 10 | Weight: 1482]
+T:  79 >   R0(1) changed from WAITING to DELIVERING
+T:  79 >   R0(1)-> [Mail Item:: ID:    105 | Arrival:   79 | Destination: 10 | Weight: 1482]
+T:  79 >   R2(1)-> Delivered(  92) [Mail Item:: ID:    148 | Arrival:   67 | Destination: 12 | Weight: 2000 | Service Fee: 0.98 | Maintenance: 1.81 | Avg. Operating Time: 72.33 | Total Charge: 2.78]
+T:  79 >   R2(0)-> [Mail Item:: ID:    157 | Arrival:   66 | Destination:  2 | Weight:  385]
+T:  79 >   B6(3)-> Delivered(  93) [Mail Item:: ID:    139 | Arrival:   67 | Destination:  1 | Weight:  526 | Service Fee: 2.56 | Maintenance: 0.67 | Avg. Operating Time: 67.33 | Total Charge: 3.23]
+T:  79 >   B6(3)-> [Mail Item:: ID:    133 | Arrival:   71 | Destination:  3 | Weight:  400]
+T:  80 > new addToPool [Mail Item:: ID:      1 | Arrival:   80 | Destination:  3 | Weight:  761]
+T:  80 >   F4(0) changed from RETURNING to WAITING
+T:  80 >   F5(0) changed from WAITING to DELIVERING
+T:  80 >   F5(0)-> [Mail Item:: ID:      1 | Arrival:   80 | Destination:  3 | Weight:  761]
+T:  80 >   B7(4)-> Delivered(  94) [Mail Item:: ID:     10 | Arrival:   71 | Destination:  5 | Weight: 1219 | Service Fee: 0.89 | Maintenance: 0.69 | Avg. Operating Time: 68.67 | Total Charge: 1.57]
+T:  80 >   B7(4)-> [Mail Item:: ID:     70 | Arrival:   69 | Destination:  5 | Weight:  314]
+T:  81 > new addToPool [Mail Item:: ID:     25 | Arrival:   81 | Destination:  3 | Weight:  799]
+T:  81 >   F3(0) changed from RETURNING to WAITING
+T:  81 >   F4(0) changed from WAITING to DELIVERING
+T:  81 >   F4(0)-> [Mail Item:: ID:     25 | Arrival:   81 | Destination:  3 | Weight:  799]
+T:  81 >   B7(3)-> Delivered(  95) [Mail Item:: ID:     70 | Arrival:   69 | Destination:  5 | Weight:  314 | Service Fee: 1.09 | Maintenance: 0.70 | Avg. Operating Time: 69.67 | Total Charge: 1.78]
+T:  81 >   B7(3)-> [Mail Item:: ID:    152 | Arrival:   68 | Destination:  5 | Weight:  378]
+T:  82 > new addToPool [Mail Item:: ID:     85 | Arrival:   82 | Destination:  5 | Weight:  827]
+T:  82 > new addToPool [Mail Item:: ID:    156 | Arrival:   82 | Destination:  7 | Weight: 1874]
+T:  82 >   F3(0) changed from WAITING to DELIVERING
+T:  82 >   F3(0)-> [Mail Item:: ID:    156 | Arrival:   82 | Destination:  7 | Weight: 1874]
+T:  82 >   F5(0)-> Delivered(  96) [Mail Item:: ID:      1 | Arrival:   80 | Destination:  3 | Weight:  761 | Service Fee: 1.39 | Maintenance: 3.20 | Avg. Operating Time: 64.00 | Total Charge: 4.59]
+T:  82 >   F5(0) changed from DELIVERING to RETURNING
+T:  82 >   B6(2)-> Delivered(  97) [Mail Item:: ID:    133 | Arrival:   71 | Destination:  3 | Weight:  400 | Service Fee: 1.39 | Maintenance: 0.70 | Avg. Operating Time: 70.33 | Total Charge: 2.09]
+T:  82 >   B6(2)-> [Mail Item:: ID:     64 | Arrival:   68 | Destination:  3 | Weight:  711]
+T:  82 >   B7(2)-> Delivered(  98) [Mail Item:: ID:    152 | Arrival:   68 | Destination:  5 | Weight:  378 | Service Fee: 1.09 | Maintenance: 0.71 | Avg. Operating Time: 70.67 | Total Charge: 1.79]
+T:  82 >   B7(2)-> [Mail Item:: ID:     63 | Arrival:   75 | Destination:  6 | Weight:  386]
+T:  83 > new addToPool [Mail Item:: ID:     18 | Arrival:   83 | Destination: 11 | Weight: 1349]
+T:  83 > new addToPool [Mail Item:: ID:     58 | Arrival:   83 | Destination:  8 | Weight: 1119]
+T:  83 >   F4(0)-> Delivered(  99) [Mail Item:: ID:     25 | Arrival:   81 | Destination:  3 | Weight:  799 | Service Fee: 1.39 | Maintenance: 3.23 | Avg. Operating Time: 64.67 | Total Charge: 4.62]
+T:  83 >   F4(0) changed from DELIVERING to RETURNING
+T:  83 >   B6(1)-> Delivered( 100) [Mail Item:: ID:     64 | Arrival:   68 | Destination:  3 | Weight:  711 | Service Fee: 1.39 | Maintenance: 0.71 | Avg. Operating Time: 71.33 | Total Charge: 2.10]
+T:  83 >   B6(1)-> [Mail Item:: ID:     17 | Arrival:   68 | Destination:  4 | Weight:  449]
+T:  84 > new addToPool [Mail Item:: ID:    127 | Arrival:   84 | Destination: 12 | Weight:  242]
+T:  84 >   F5(0) changed from RETURNING to WAITING
+T:  84 >   B7(1)-> Delivered( 101) [Mail Item:: ID:     63 | Arrival:   75 | Destination:  6 | Weight:  386 | Service Fee: 2.21 | Maintenance: 0.73 | Avg. Operating Time: 72.67 | Total Charge: 2.93]
+T:  84 >   B7(1)-> [Mail Item:: ID:     83 | Arrival:   71 | Destination:  6 | Weight: 1967]
+T:  85 > new addToPool [Mail Item:: ID:     71 | Arrival:   85 | Destination:  5 | Weight:  319]
+T:  85 >   F3(0)-> Delivered( 102) [Mail Item:: ID:    156 | Arrival:   82 | Destination:  7 | Weight: 1874 | Service Fee: 3.81 | Maintenance: 3.32 | Avg. Operating Time: 66.33 | Total Charge: 7.12]
+T:  85 >   F3(0) changed from DELIVERING to RETURNING
+T:  85 >   F4(0) changed from RETURNING to WAITING
+T:  85 >   F5(0) changed from WAITING to DELIVERING
+T:  85 >   F5(0)-> [Mail Item:: ID:    127 | Arrival:   84 | Destination: 12 | Weight:  242]
+T:  85 >   B6(0)-> Delivered( 103) [Mail Item:: ID:     17 | Arrival:   68 | Destination:  4 | Weight:  449 | Service Fee: 4.00 | Maintenance: 0.73 | Avg. Operating Time: 73.33 | Total Charge: 4.73]
+T:  85 >   B6(0) changed from DELIVERING to RETURNING
+T:  85 >   B7(0)-> Delivered( 104) [Mail Item:: ID:     83 | Arrival:   71 | Destination:  6 | Weight: 1967 | Service Fee: 2.41 | Maintenance: 0.74 | Avg. Operating Time: 73.67 | Total Charge: 3.14]
+T:  85 >   B7(0) changed from DELIVERING to RETURNING
+T:  86 > new addToPool [Mail Item:: ID:    121 | Arrival:   86 | Destination: 12 | Weight: 2000]
+T:  86 > new addToPool [Mail Item:: ID:    125 | Arrival:   86 | Destination:  8 | Weight: 2000]
+T:  86 >   R1(1)-> Delivered( 105) [Mail Item:: ID:     53 | Arrival:   77 | Destination:  9 | Weight:  980 | Service Fee: 0.91 | Maintenance: 1.98 | Avg. Operating Time: 79.00 | Total Charge: 2.89]
+T:  86 >   R1(0)-> [Mail Item:: ID:     34 | Arrival:   76 | Destination:  7 | Weight: 1243]
+T:  86 >   F4(0) changed from WAITING to DELIVERING
+T:  86 >   F4(0)-> [Mail Item:: ID:    121 | Arrival:   86 | Destination: 12 | Weight: 2000]
+T:  87 >   B8(0) changed from RETURNING to WAITING
+T:  88 >   F3(0) changed from RETURNING to WAITING
+T:  88 >   B8(5) changed from WAITING to DELIVERING
+T:  88 >   B8(5)-> [Mail Item:: ID:     71 | Arrival:   85 | Destination:  5 | Weight:  319]
+T:  89 > new addToPool [Mail Item:: ID:     97 | Arrival:   89 | Destination:  1 | Weight:  874]
+T:  89 > new addToPool [Mail Item:: ID:    118 | Arrival:   89 | Destination: 10 | Weight:  427]
+T:  89 >   R0(1)-> Delivered( 106) [Mail Item:: ID:    105 | Arrival:   79 | Destination: 10 | Weight: 1482 | Service Fee: 2.38 | Maintenance: 2.04 | Avg. Operating Time: 81.67 | Total Charge: 4.42]
+T:  89 >   R0(0)-> [Mail Item:: ID:     55 | Arrival:   78 | Destination:  1 | Weight:  672]
+T:  89 >   R1(0)-> Delivered( 107) [Mail Item:: ID:     34 | Arrival:   76 | Destination:  7 | Weight: 1243 | Service Fee: 4.00 | Maintenance: 2.05 | Avg. Operating Time: 82.00 | Total Charge: 6.05]
+T:  89 >   R1(0) changed from DELIVERING to RETURNING
+T:  89 >   F3(0) changed from WAITING to DELIVERING
+T:  89 >   F3(0)-> [Mail Item:: ID:    118 | Arrival:   89 | Destination: 10 | Weight:  427]
+T:  89 >   B6(0) changed from RETURNING to WAITING
+T:  90 >   R2(0)-> Delivered( 108) [Mail Item:: ID:    157 | Arrival:   66 | Destination:  2 | Weight:  385 | Service Fee: 1.52 | Maintenance: 2.08 | Avg. Operating Time: 83.33 | Total Charge: 3.61]
+T:  90 >   R2(0) changed from DELIVERING to RETURNING
+T:  90 >   F5(0)-> Delivered( 109) [Mail Item:: ID:    127 | Arrival:   84 | Destination: 12 | Weight:  242 | Service Fee: 0.98 | Maintenance: 3.55 | Avg. Operating Time: 71.00 | Total Charge: 4.53]
+T:  90 >   F5(0) changed from DELIVERING to RETURNING
+T:  90 >   B6(1) changed from WAITING to DELIVERING
+T:  90 >   B6(1)-> [Mail Item:: ID:     97 | Arrival:   89 | Destination:  1 | Weight:  874]
+T:  91 > new addToPool [Mail Item:: ID:      9 | Arrival:   91 | Destination:  3 | Weight:  217]
+T:  91 > new addToPool [Mail Item:: ID:     56 | Arrival:   91 | Destination: 11 | Weight:  852]
+T:  91 >   F4(0)-> Delivered( 110) [Mail Item:: ID:    121 | Arrival:   86 | Destination: 12 | Weight: 2000 | Service Fee: 0.98 | Maintenance: 3.58 | Avg. Operating Time: 71.67 | Total Charge: 4.56]
+T:  91 >   F4(0) changed from DELIVERING to RETURNING
+T:  91 >   B6(0)-> Delivered( 111) [Mail Item:: ID:     97 | Arrival:   89 | Destination:  1 | Weight:  874 | Service Fee: 2.56 | Maintenance: 0.79 | Avg. Operating Time: 78.67 | Total Charge: 3.34]
+T:  91 >   B6(0) changed from DELIVERING to RETURNING
+T:  91 >   B7(0) changed from RETURNING to WAITING
+T:  92 >   R2(0) changed from RETURNING to WAITING
+T:  92 >   B6(0) changed from RETURNING to WAITING
+T:  92 >   B7(2) changed from WAITING to DELIVERING
+T:  92 >   B7(2)-> [Mail Item:: ID:      9 | Arrival:   91 | Destination:  3 | Weight:  217]
+T:  93 > new addToPool [Mail Item:: ID:     21 | Arrival:   93 | Destination:  4 | Weight:  373]
+T:  93 > new addToPool [Mail Item:: ID:    144 | Arrival:   93 | Destination:  2 | Weight:  470]
+T:  93 >   R2(1) changed from WAITING to DELIVERING
+T:  93 >   R2(1)-> [Mail Item:: ID:     21 | Arrival:   93 | Destination:  4 | Weight:  373]
+T:  93 >   F3(0)-> Delivered( 112) [Mail Item:: ID:    118 | Arrival:   89 | Destination: 10 | Weight:  427 | Service Fee: 2.38 | Maintenance: 3.67 | Avg. Operating Time: 73.33 | Total Charge: 6.04]
+T:  93 >   F3(0) changed from DELIVERING to RETURNING
+T:  93 >   B8(4)-> Delivered( 113) [Mail Item:: ID:     71 | Arrival:   85 | Destination:  5 | Weight:  319 | Service Fee: 1.09 | Maintenance: 0.81 | Avg. Operating Time: 80.67 | Total Charge: 1.89]
+T:  93 >   B8(4)-> [Mail Item:: ID:     85 | Arrival:   82 | Destination:  5 | Weight:  827]
+T:  94 > new addToPool [Mail Item:: ID:    158 | Arrival:   94 | Destination:  8 | Weight:  424]
+T:  94 >   B6(1) changed from WAITING to DELIVERING
+T:  94 >   B6(1)-> [Mail Item:: ID:    158 | Arrival:   94 | Destination:  8 | Weight:  424]
+T:  94 >   B8(3)-> Delivered( 114) [Mail Item:: ID:     85 | Arrival:   82 | Destination:  5 | Weight:  827 | Service Fee: 1.09 | Maintenance: 0.81 | Avg. Operating Time: 81.33 | Total Charge: 1.90]
+T:  94 >   B8(3)-> [Mail Item:: ID:    125 | Arrival:   86 | Destination:  8 | Weight: 2000]
+T:  95 > new addToPool [Mail Item:: ID:    119 | Arrival:   95 | Destination:  7 | Weight:  934]
+T:  95 >   F5(0) changed from RETURNING to WAITING
+T:  95 >   B7(1)-> Delivered( 115) [Mail Item:: ID:      9 | Arrival:   91 | Destination:  3 | Weight:  217 | Service Fee: 1.39 | Maintenance: 0.82 | Avg. Operating Time: 82.00 | Total Charge: 2.21]
+T:  95 >   B7(1)-> [Mail Item:: ID:     56 | Arrival:   91 | Destination: 11 | Weight:  852]
+T:  96 > new addToPool [Mail Item:: ID:     35 | Arrival:   96 | Destination:  9 | Weight:  415]
+T:  96 > new addToPool [Mail Item:: ID:    122 | Arrival:   96 | Destination:  9 | Weight:  386]
+T:  96 > new addToPool [Mail Item:: ID:    136 | Arrival:   96 | Destination: 10 | Weight:  313]
+T:  96 > new addToPool [Mail Item:: ID:    142 | Arrival:   96 | Destination: 11 | Weight:  700]
+T:  96 >   R1(0) changed from RETURNING to WAITING
+T:  96 >   F4(0) changed from RETURNING to WAITING
+T:  96 >   F5(0) changed from WAITING to DELIVERING
+T:  96 >   F5(0)-> [Mail Item:: ID:    142 | Arrival:   96 | Destination: 11 | Weight:  700]
+T:  97 > new addToPool [Mail Item:: ID:     92 | Arrival:   97 | Destination:  9 | Weight:  435]
+T:  97 >   R1(1) changed from WAITING to DELIVERING
+T:  97 >   R1(1)-> [Mail Item:: ID:    136 | Arrival:   96 | Destination: 10 | Weight:  313]
+T:  97 >   R2(1)-> Delivered( 116) [Mail Item:: ID:     21 | Arrival:   93 | Destination:  4 | Weight:  373 | Service Fee: 4.00 | Maintenance: 2.24 | Avg. Operating Time: 89.67 | Total Charge: 6.24]
+T:  97 >   R2(0)-> [Mail Item:: ID:    144 | Arrival:   93 | Destination:  2 | Weight:  470]
+T:  97 >   F3(0) changed from RETURNING to WAITING
+T:  97 >   F4(0) changed from WAITING to DELIVERING
+T:  97 >   F4(0)-> [Mail Item:: ID:    122 | Arrival:   96 | Destination:  9 | Weight:  386]
+T:  98 >   F3(0) changed from WAITING to DELIVERING
+T:  98 >   F3(0)-> [Mail Item:: ID:     92 | Arrival:   97 | Destination:  9 | Weight:  435]
+T:  98 >   B8(2)-> Delivered( 117) [Mail Item:: ID:    125 | Arrival:   86 | Destination:  8 | Weight: 2000 | Service Fee: 2.53 | Maintenance: 0.85 | Avg. Operating Time: 85.33 | Total Charge: 3.38]
+T:  98 >   B8(2)-> [Mail Item:: ID:     58 | Arrival:   83 | Destination:  8 | Weight: 1119]
+T:  99 > new addToPool [Mail Item:: ID:    108 | Arrival:   99 | Destination:  7 | Weight:  644]
+T:  99 >   R0(0)-> Delivered( 118) [Mail Item:: ID:     55 | Arrival:   78 | Destination:  1 | Weight:  672 | Service Fee: 2.56 | Maintenance: 2.28 | Avg. Operating Time: 91.00 | Total Charge: 4.83]
+T:  99 >   R0(0) changed from DELIVERING to RETURNING
+T:  99 >   B8(1)-> Delivered( 119) [Mail Item:: ID:     58 | Arrival:   83 | Destination:  8 | Weight: 1119 | Service Fee: 2.73 | Maintenance: 0.86 | Avg. Operating Time: 86.33 | Total Charge: 3.59]
+T:  99 >   B8(1)-> [Mail Item:: ID:     18 | Arrival:   83 | Destination: 11 | Weight: 1349]
+T: 100 > new addToPool [Mail Item:: ID:     54 | Arrival:  100 | Destination: 12 | Weight:  450]
+T: 100 >   R0(0) changed from RETURNING to WAITING
+T: 100 >   R2(0)-> Delivered( 120) [Mail Item:: ID:    144 | Arrival:   93 | Destination:  2 | Weight:  470 | Service Fee: 1.52 | Maintenance: 2.32 | Avg. Operating Time: 92.67 | Total Charge: 3.84]
+T: 100 >   R2(0) changed from DELIVERING to RETURNING
+T: 101 > new addToPool [Mail Item:: ID:     27 | Arrival:  101 | Destination: 10 | Weight: 1174]
+T: 101 > new addToPool [Mail Item:: ID:     31 | Arrival:  101 | Destination:  5 | Weight:  839]
+T: 101 > new addToPool [Mail Item:: ID:     40 | Arrival:  101 | Destination:  1 | Weight:  494]
+T: 101 > new addToPool [Mail Item:: ID:    116 | Arrival:  101 | Destination: 10 | Weight: 2000]
+T: 101 > new addToPool [Mail Item:: ID:    126 | Arrival:  101 | Destination: 12 | Weight: 1491]
+T: 101 >   R0(1) changed from WAITING to DELIVERING
+T: 101 >   R0(1)-> [Mail Item:: ID:     54 | Arrival:  100 | Destination: 12 | Weight:  450]
+T: 101 >   F4(0)-> Delivered( 121) [Mail Item:: ID:    122 | Arrival:   96 | Destination:  9 | Weight:  386 | Service Fee: 0.91 | Maintenance: 4.03 | Avg. Operating Time: 80.67 | Total Charge: 4.95]
+T: 101 >   F4(0) changed from DELIVERING to RETURNING
+T: 101 >   F5(0)-> Delivered( 122) [Mail Item:: ID:    142 | Arrival:   96 | Destination: 11 | Weight:  700 | Service Fee: 3.07 | Maintenance: 4.05 | Avg. Operating Time: 81.00 | Total Charge: 7.12]
+T: 101 >   F5(0) changed from DELIVERING to RETURNING
+T: 102 > new addToPool [Mail Item:: ID:     81 | Arrival:  102 | Destination:  8 | Weight:  352]
+T: 102 > new addToPool [Mail Item:: ID:    102 | Arrival:  102 | Destination:  5 | Weight:  287]
+T: 102 > new addToPool [Mail Item:: ID:    109 | Arrival:  102 | Destination:  9 | Weight:  733]
+T: 102 >   R2(0) changed from RETURNING to WAITING
+T: 102 >   F3(0)-> Delivered( 123) [Mail Item:: ID:     92 | Arrival:   97 | Destination:  9 | Weight:  435 | Service Fee: 0.91 | Maintenance: 4.07 | Avg. Operating Time: 81.33 | Total Charge: 4.98]
+T: 102 >   F3(0) changed from DELIVERING to RETURNING
+T: 102 >   B6(0)-> Delivered( 124) [Mail Item:: ID:    158 | Arrival:   94 | Destination:  8 | Weight:  424 | Service Fee: 2.73 | Maintenance: 0.89 | Avg. Operating Time: 88.67 | Total Charge: 3.61]
+T: 102 >   B6(0) changed from DELIVERING to RETURNING
+T: 103 > new addToPool [Mail Item:: ID:     39 | Arrival:  103 | Destination:  9 | Weight:  372]
+T: 103 > new addToPool [Mail Item:: ID:     76 | Arrival:  103 | Destination:  6 | Weight:  317]
+T: 103 >   R2(1) changed from WAITING to DELIVERING
+T: 103 >   R2(1)-> [Mail Item:: ID:     27 | Arrival:  101 | Destination: 10 | Weight: 1174]
+T: 103 >   B8(0)-> Delivered( 125) [Mail Item:: ID:     18 | Arrival:   83 | Destination: 11 | Weight: 1349 | Service Fee: 3.07 | Maintenance: 0.90 | Avg. Operating Time: 90.33 | Total Charge: 3.98]
+T: 103 >   B8(0) changed from DELIVERING to RETURNING
+T: 104 > new addToPool [Mail Item:: ID:     72 | Arrival:  104 | Destination:  6 | Weight:  921]
+T: 104 >   B7(0)-> Delivered( 126) [Mail Item:: ID:     56 | Arrival:   91 | Destination: 11 | Weight:  852 | Service Fee: 3.07 | Maintenance: 0.91 | Avg. Operating Time: 91.00 | Total Charge: 3.98]
+T: 104 >   B7(0) changed from DELIVERING to RETURNING
+T: 105 >   F4(0) changed from RETURNING to WAITING
+T: 106 >   F3(0) changed from RETURNING to WAITING
+T: 106 >   F4(0) changed from WAITING to DELIVERING
+T: 106 >   F4(0)-> [Mail Item:: ID:    109 | Arrival:  102 | Destination:  9 | Weight:  733]
+T: 106 >   F5(0) changed from RETURNING to WAITING
+T: 107 >   R1(1)-> Delivered( 127) [Mail Item:: ID:    136 | Arrival:   96 | Destination: 10 | Weight:  313 | Service Fee: 2.38 | Maintenance: 2.47 | Avg. Operating Time: 98.67 | Total Charge: 4.84]
+T: 107 >   R1(0)-> [Mail Item:: ID:     35 | Arrival:   96 | Destination:  9 | Weight:  415]
+T: 107 >   F3(0) changed from WAITING to DELIVERING
+T: 107 >   F3(0)-> [Mail Item:: ID:     39 | Arrival:  103 | Destination:  9 | Weight:  372]
+T: 107 >   F5(0) changed from WAITING to DELIVERING
+T: 107 >   F5(0)-> [Mail Item:: ID:     81 | Arrival:  102 | Destination:  8 | Weight:  352]
+T: 109 > new addToPool [Mail Item:: ID:     36 | Arrival:  109 | Destination:  9 | Weight: 1366]
+T: 109 > new addToPool [Mail Item:: ID:     46 | Arrival:  109 | Destination:  1 | Weight:  871]
+T: 109 >   R1(0)-> Delivered( 128) [Mail Item:: ID:     35 | Arrival:   96 | Destination:  9 | Weight:  415 | Service Fee: 0.91 | Maintenance: 2.52 | Avg. Operating Time: 100.67 | Total Charge: 3.43]
+T: 109 >   R1(0) changed from DELIVERING to RETURNING
+T: 110 >   F4(0)-> Delivered( 129) [Mail Item:: ID:    109 | Arrival:  102 | Destination:  9 | Weight:  733 | Service Fee: 1.11 | Maintenance: 4.43 | Avg. Operating Time: 88.67 | Total Charge: 5.55]
+T: 110 >   F4(0) changed from DELIVERING to RETURNING
+T: 110 >   B6(0) changed from RETURNING to WAITING
+T: 111 > new addToPool [Mail Item:: ID:     42 | Arrival:  111 | Destination:  4 | Weight:  799]
+T: 111 > new addToPool [Mail Item:: ID:     43 | Arrival:  111 | Destination: 11 | Weight: 1293]
+T: 111 > new addToPool [Mail Item:: ID:     44 | Arrival:  111 | Destination:  2 | Weight:  505]
+T: 111 >   F3(0)-> Delivered( 130) [Mail Item:: ID:     39 | Arrival:  103 | Destination:  9 | Weight:  372 | Service Fee: 1.31 | Maintenance: 4.47 | Avg. Operating Time: 89.33 | Total Charge: 5.78]
+T: 111 >   F3(0) changed from DELIVERING to RETURNING
+T: 111 >   F5(0)-> Delivered( 131) [Mail Item:: ID:     81 | Arrival:  102 | Destination:  8 | Weight:  352 | Service Fee: 2.73 | Maintenance: 4.50 | Avg. Operating Time: 90.00 | Total Charge: 7.23]
+T: 111 >   F5(0) changed from DELIVERING to RETURNING
+T: 111 >   B6(5) changed from WAITING to DELIVERING
+T: 111 >   B6(5)-> [Mail Item:: ID:     76 | Arrival:  103 | Destination:  6 | Weight:  317]
+T: 112 > new addToPool [Mail Item:: ID:     26 | Arrival:  112 | Destination:  3 | Weight:  708]
+T: 112 > new addToPool [Mail Item:: ID:     96 | Arrival:  112 | Destination:  7 | Weight:  461]
+T: 112 > new addToPool [Mail Item:: ID:     98 | Arrival:  112 | Destination:  7 | Weight: 2000]
+T: 113 > new addToPool [Mail Item:: ID:    129 | Arrival:  113 | Destination:  6 | Weight:  397]
+T: 113 >   R0(1)-> Delivered( 132) [Mail Item:: ID:     54 | Arrival:  100 | Destination: 12 | Weight:  450 | Service Fee: 0.98 | Maintenance: 2.61 | Avg. Operating Time: 104.33 | Total Charge: 3.58]
+T: 113 >   R0(0)-> [Mail Item:: ID:    126 | Arrival:  101 | Destination: 12 | Weight: 1491]
+T: 113 >   R2(1)-> Delivered( 133) [Mail Item:: ID:     27 | Arrival:  101 | Destination: 10 | Weight: 1174 | Service Fee: 2.38 | Maintenance: 2.63 | Avg. Operating Time: 105.00 | Total Charge: 5.00]
+T: 113 >   R2(0)-> [Mail Item:: ID:    116 | Arrival:  101 | Destination: 10 | Weight: 2000]
+T: 114 > new addToPool [Mail Item:: ID:    149 | Arrival:  114 | Destination:  1 | Weight:  581]
+T: 114 >   R0(0)-> Delivered( 134) [Mail Item:: ID:    126 | Arrival:  101 | Destination: 12 | Weight: 1491 | Service Fee: 1.18 | Maintenance: 2.63 | Avg. Operating Time: 105.33 | Total Charge: 3.81]
+T: 114 >   R0(0) changed from DELIVERING to RETURNING
+T: 114 >   R2(0)-> Delivered( 135) [Mail Item:: ID:    116 | Arrival:  101 | Destination: 10 | Weight: 2000 | Service Fee: 2.38 | Maintenance: 2.65 | Avg. Operating Time: 106.00 | Total Charge: 5.03]
+T: 114 >   R2(0) changed from DELIVERING to RETURNING
+T: 114 >   F4(0) changed from RETURNING to WAITING
+T: 114 >   B8(0) changed from RETURNING to WAITING
+T: 115 > new addToPool [Mail Item:: ID:     95 | Arrival:  115 | Destination:  2 | Weight: 1827]
+T: 115 > new addToPool [Mail Item:: ID:    117 | Arrival:  115 | Destination:  1 | Weight:  289]
+T: 115 >   F3(0) changed from RETURNING to WAITING
+T: 115 >   F4(0) changed from WAITING to DELIVERING
+T: 115 >   F4(0)-> [Mail Item:: ID:     96 | Arrival:  112 | Destination:  7 | Weight:  461]
+T: 115 >   F5(0) changed from RETURNING to WAITING
+T: 115 >   B7(0) changed from RETURNING to WAITING
+T: 115 >   B8(5) changed from WAITING to DELIVERING
+T: 115 >   B8(5)-> [Mail Item:: ID:    102 | Arrival:  102 | Destination:  5 | Weight:  287]
+T: 116 > new addToPool [Mail Item:: ID:     11 | Arrival:  116 | Destination:  1 | Weight:  533]
+T: 116 > new addToPool [Mail Item:: ID:     66 | Arrival:  116 | Destination:  5 | Weight:  414]
+T: 116 >   F3(0) changed from WAITING to DELIVERING
+T: 116 >   F3(0)-> [Mail Item:: ID:     66 | Arrival:  116 | Destination:  5 | Weight:  414]
+T: 116 >   F5(0) changed from WAITING to DELIVERING
+T: 116 >   F5(0)-> [Mail Item:: ID:     42 | Arrival:  111 | Destination:  4 | Weight:  799]
+T: 116 >   B7(5) changed from WAITING to DELIVERING
+T: 116 >   B7(5)-> [Mail Item:: ID:     46 | Arrival:  109 | Destination:  1 | Weight:  871]
+T: 117 > new addToPool [Mail Item:: ID:     47 | Arrival:  117 | Destination:  3 | Weight: 1671]
+T: 117 > new addToPool [Mail Item:: ID:    160 | Arrival:  117 | Destination:  7 | Weight:  214]
+T: 117 >   B6(4)-> Delivered( 136) [Mail Item:: ID:     76 | Arrival:  103 | Destination:  6 | Weight:  317 | Service Fee: 2.61 | Maintenance: 1.03 | Avg. Operating Time: 102.67 | Total Charge: 3.63]
+T: 117 >   B6(4)-> [Mail Item:: ID:    108 | Arrival:   99 | Destination:  7 | Weight:  644]
+T: 117 >   B7(4)-> Delivered( 137) [Mail Item:: ID:     46 | Arrival:  109 | Destination:  1 | Weight:  871 | Service Fee: 2.76 | Maintenance: 1.03 | Avg. Operating Time: 103.00 | Total Charge: 3.79]
+T: 117 >   B7(4)-> [Mail Item:: ID:     40 | Arrival:  101 | Destination:  1 | Weight:  494]
+T: 118 > new addToPool [Mail Item:: ID:      3 | Arrival:  118 | Destination:  1 | Weight: 1764]
+T: 118 > new addToPool [Mail Item:: ID:     65 | Arrival:  118 | Destination: 11 | Weight:  280]
+T: 118 >   R1(0) changed from RETURNING to WAITING
+T: 118 >   F4(0)-> Delivered( 138) [Mail Item:: ID:     96 | Arrival:  112 | Destination:  7 | Weight:  461 | Service Fee: 4.00 | Maintenance: 4.78 | Avg. Operating Time: 95.67 | Total Charge: 8.78]
+T: 118 >   F4(0) changed from DELIVERING to RETURNING
+T: 118 >   F5(0)-> Delivered( 139) [Mail Item:: ID:     42 | Arrival:  111 | Destination:  4 | Weight:  799 | Service Fee: 4.00 | Maintenance: 4.80 | Avg. Operating Time: 96.00 | Total Charge: 8.80]
+T: 118 >   F5(0) changed from DELIVERING to RETURNING
+T: 118 >   B7(3)-> Delivered( 140) [Mail Item:: ID:     40 | Arrival:  101 | Destination:  1 | Weight:  494 | Service Fee: 2.76 | Maintenance: 1.04 | Avg. Operating Time: 104.00 | Total Charge: 3.80]
+T: 118 >   B7(3)-> [Mail Item:: ID:     95 | Arrival:  115 | Destination:  2 | Weight: 1827]
+T: 119 >   R1(1) changed from WAITING to DELIVERING
+T: 119 >   R1(1)-> [Mail Item:: ID:     65 | Arrival:  118 | Destination: 11 | Weight:  280]
+T: 119 >   F3(0)-> Delivered( 141) [Mail Item:: ID:     66 | Arrival:  116 | Destination:  5 | Weight:  414 | Service Fee: 1.29 | Maintenance: 4.82 | Avg. Operating Time: 96.33 | Total Charge: 6.10]
+T: 119 >   F3(0) changed from DELIVERING to RETURNING
+T: 119 >   B6(3)-> Delivered( 142) [Mail Item:: ID:    108 | Arrival:   99 | Destination:  7 | Weight:  644 | Service Fee: 4.00 | Maintenance: 1.05 | Avg. Operating Time: 104.67 | Total Charge: 5.05]
+T: 119 >   B6(3)-> [Mail Item:: ID:    119 | Arrival:   95 | Destination:  7 | Weight:  934]
+T: 120 > new addToPool [Mail Item:: ID:     77 | Arrival:  120 | Destination:  4 | Weight:  483]
+T: 120 >   F5(0) changed from RETURNING to WAITING
+T: 120 >   B6(2)-> Delivered( 143) [Mail Item:: ID:    119 | Arrival:   95 | Destination:  7 | Weight:  934 | Service Fee: 4.00 | Maintenance: 1.06 | Avg. Operating Time: 105.67 | Total Charge: 5.06]
+T: 120 >   B6(2)-> [Mail Item:: ID:     36 | Arrival:  109 | Destination:  9 | Weight: 1366]
+T: 120 >   B7(2)-> Delivered( 144) [Mail Item:: ID:     95 | Arrival:  115 | Destination:  2 | Weight: 1827 | Service Fee: 1.52 | Maintenance: 1.06 | Avg. Operating Time: 106.00 | Total Charge: 2.58]
+T: 120 >   B7(2)-> [Mail Item:: ID:     44 | Arrival:  111 | Destination:  2 | Weight:  505]
+T: 120 >   B8(4)-> Delivered( 145) [Mail Item:: ID:    102 | Arrival:  102 | Destination:  5 | Weight:  287 | Service Fee: 1.29 | Maintenance: 1.06 | Avg. Operating Time: 106.33 | Total Charge: 2.35]
+T: 120 >   B8(4)-> [Mail Item:: ID:     31 | Arrival:  101 | Destination:  5 | Weight:  839]
+T: 121 >   F4(0) changed from RETURNING to WAITING
+T: 121 >   F5(0) changed from WAITING to DELIVERING
+T: 121 >   F5(0)-> [Mail Item:: ID:     77 | Arrival:  120 | Destination:  4 | Weight:  483]
+T: 121 >   B7(1)-> Delivered( 146) [Mail Item:: ID:     44 | Arrival:  111 | Destination:  2 | Weight:  505 | Service Fee: 1.52 | Maintenance: 1.07 | Avg. Operating Time: 107.00 | Total Charge: 2.59]
+T: 121 >   B7(1)-> [Mail Item:: ID:     26 | Arrival:  112 | Destination:  3 | Weight:  708]
+T: 121 >   B8(3)-> Delivered( 147) [Mail Item:: ID:     31 | Arrival:  101 | Destination:  5 | Weight:  839 | Service Fee: 1.29 | Maintenance: 1.07 | Avg. Operating Time: 107.33 | Total Charge: 2.36]
+T: 121 >   B8(3)-> [Mail Item:: ID:    129 | Arrival:  113 | Destination:  6 | Weight:  397]
+T: 122 >   F3(0) changed from RETURNING to WAITING
+T: 122 >   F4(0) changed from WAITING to DELIVERING
+T: 122 >   F4(0)-> [Mail Item:: ID:     47 | Arrival:  117 | Destination:  3 | Weight: 1671]
+T: 123 >   F3(0) changed from WAITING to DELIVERING
+T: 123 >   F3(0)-> [Mail Item:: ID:    149 | Arrival:  114 | Destination:  1 | Weight:  581]
+T: 123 >   F5(0)-> Delivered( 148) [Mail Item:: ID:     77 | Arrival:  120 | Destination:  4 | Weight:  483 | Service Fee: 4.00 | Maintenance: 5.00 | Avg. Operating Time: 100.00 | Total Charge: 9.00]
+T: 123 >   F5(0) changed from DELIVERING to RETURNING
+T: 123 >   B6(1)-> Delivered( 149) [Mail Item:: ID:     36 | Arrival:  109 | Destination:  9 | Weight: 1366 | Service Fee: 1.51 | Maintenance: 1.09 | Avg. Operating Time: 108.67 | Total Charge: 2.60]
+T: 123 >   B6(1)-> [Mail Item:: ID:     43 | Arrival:  111 | Destination: 11 | Weight: 1293]
+T: 123 >   B7(0)-> Delivered( 150) [Mail Item:: ID:     26 | Arrival:  112 | Destination:  3 | Weight:  708 | Service Fee: 1.39 | Maintenance: 1.09 | Avg. Operating Time: 109.00 | Total Charge: 2.48]
+T: 123 >   B7(0) changed from DELIVERING to RETURNING
+T: 123 >   B8(2)-> Delivered( 151) [Mail Item:: ID:    129 | Arrival:  113 | Destination:  6 | Weight:  397 | Service Fee: 2.61 | Maintenance: 1.09 | Avg. Operating Time: 109.33 | Total Charge: 3.70]
+T: 123 >   B8(2)-> [Mail Item:: ID:     72 | Arrival:  104 | Destination:  6 | Weight:  921]
+T: 124 >   R2(0) changed from RETURNING to WAITING
+T: 124 >   F3(0)-> Delivered( 152) [Mail Item:: ID:    149 | Arrival:  114 | Destination:  1 | Weight:  581 | Service Fee: 2.76 | Maintenance: 5.02 | Avg. Operating Time: 100.33 | Total Charge: 7.77]
+T: 124 >   F3(0) changed from DELIVERING to RETURNING
+T: 124 >   F4(0)-> Delivered( 153) [Mail Item:: ID:     47 | Arrival:  117 | Destination:  3 | Weight: 1671 | Service Fee: 1.59 | Maintenance: 5.03 | Avg. Operating Time: 100.67 | Total Charge: 6.62]
+T: 124 >   F4(0) changed from DELIVERING to RETURNING
+T: 124 >   B8(1)-> Delivered( 154) [Mail Item:: ID:     72 | Arrival:  104 | Destination:  6 | Weight:  921 | Service Fee: 2.81 | Maintenance: 1.10 | Avg. Operating Time: 110.33 | Total Charge: 3.91]
+T: 124 >   B8(1)-> [Mail Item:: ID:     98 | Arrival:  112 | Destination:  7 | Weight: 2000]
+T: 125 >   R2(1) changed from WAITING to DELIVERING
+T: 125 >   R2(1)-> [Mail Item:: ID:    117 | Arrival:  115 | Destination:  1 | Weight:  289]
+T: 125 >   F3(0) changed from RETURNING to WAITING
+T: 125 >   F5(0) changed from RETURNING to WAITING
+T: 126 >   R0(0) changed from RETURNING to WAITING
+T: 126 >   R2(1)-> Delivered( 155) [Mail Item:: ID:    117 | Arrival:  115 | Destination:  1 | Weight:  289 | Service Fee: 2.96 | Maintenance: 2.93 | Avg. Operating Time: 117.33 | Total Charge: 5.89]
+T: 126 >   R2(0)-> [Mail Item:: ID:     11 | Arrival:  116 | Destination:  1 | Weight:  533]
+T: 126 >   F3(0) changed from WAITING to DELIVERING
+T: 126 >   F3(0)-> [Mail Item:: ID:      3 | Arrival:  118 | Destination:  1 | Weight: 1764]
+T: 126 >   F4(0) changed from RETURNING to WAITING
+T: 126 >   B6(0)-> Delivered( 156) [Mail Item:: ID:     43 | Arrival:  111 | Destination: 11 | Weight: 1293 | Service Fee: 3.07 | Maintenance: 1.12 | Avg. Operating Time: 111.67 | Total Charge: 4.19]
+T: 126 >   B6(0) changed from DELIVERING to RETURNING
+T: 126 >   B7(0) changed from RETURNING to WAITING
+T: 126 >   B8(0)-> Delivered( 157) [Mail Item:: ID:     98 | Arrival:  112 | Destination:  7 | Weight: 2000 | Service Fee: 4.00 | Maintenance: 1.12 | Avg. Operating Time: 112.33 | Total Charge: 5.12]
+T: 126 >   B8(0) changed from DELIVERING to RETURNING
+T: 127 >   R2(0)-> Delivered( 158) [Mail Item:: ID:     11 | Arrival:  116 | Destination:  1 | Weight:  533 | Service Fee: 2.96 | Maintenance: 2.95 | Avg. Operating Time: 118.00 | Total Charge: 5.91]
+T: 127 >   R2(0) changed from DELIVERING to RETURNING
+T: 127 >   F3(0)-> Delivered( 159) [Mail Item:: ID:      3 | Arrival:  118 | Destination:  1 | Weight: 1764 | Service Fee: 2.96 | Maintenance: 5.13 | Avg. Operating Time: 102.67 | Total Charge: 8.09]
+T: 127 >   F3(0) changed from DELIVERING to RETURNING
+T: 128 >   R2(0) changed from RETURNING to WAITING
+T: 128 >   F3(0) changed from RETURNING to WAITING
+T: 130 >   R1(1)-> Delivered( 160) [Mail Item:: ID:     65 | Arrival:  118 | Destination: 11 | Weight:  280 | Service Fee: 3.07 | Maintenance: 2.98 | Avg. Operating Time: 119.33 | Total Charge: 6.06]
+T: 130 >   R1(0)-> [Mail Item:: ID:    160 | Arrival:  117 | Destination:  7 | Weight:  214]
+T: 133 >   B8(0) changed from RETURNING to WAITING
+T: 135 >   R1(0)-> Delivered( 161) [Mail Item:: ID:    160 | Arrival:  117 | Destination:  7 | Weight:  214 | Service Fee: 4.00 | Maintenance: 3.03 | Avg. Operating Time: 121.00 | Total Charge: 7.03]
+T: 135 >   R1(0) changed from DELIVERING to RETURNING
+T: 136 | Simulation complete!
+Final Delivery time: 136
+Delay: 2730.16
+Modem Turnoff on Floor[1]: NumberOfAPICalls[161],TotalFee[317.6513067245486],FailedOperation[9]
